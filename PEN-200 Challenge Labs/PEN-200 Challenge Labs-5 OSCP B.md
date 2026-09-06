@@ -1,5 +1,5 @@
 ## Overview
-![image](https://hackmd.io/_uploads/ByJdwOmvbx.png)
+![image](_assets/ByJdwOmvbx.png)
 
 ## Nmap(外網)
 * `192.168.x.147`
@@ -285,15 +285,15 @@ PS C:\>
 * Credential Access
 1. `web_svc`
 `53e938166782a44e241beaf02d081ff6`
-![image](https://hackmd.io/_uploads/BkFusYQP-g.png)
+![image](_assets/BkFusYQP-g.png)
 
 2. `local-Administrator`
 `3c4495bbd678fac8c9d218be4f2bbc7b`
-![image](https://hackmd.io/_uploads/HyhCg5XvWg.png)
+![image](_assets/HyhCg5XvWg.png)
 
 3. History File
-![image](https://hackmd.io/_uploads/S1Xol5NvWe.png)
-![image](https://hackmd.io/_uploads/ryWng9ED-x.png)
+![image](_assets/S1Xol5NvWe.png)
+![image](_assets/ryWng9ED-x.png)
 
 
 ## 192.168.x.149(WTF)
@@ -421,7 +421,7 @@ john@oscp:~$
 ```
 
 * Privilege Escalation
-![image](https://hackmd.io/_uploads/SkJZO7s_Wx.png)
+![image](_assets/SkJZO7s_Wx.png)
 ```bash
 john@oscp:~$ echo $PATH
 /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/snap/bin
@@ -507,7 +507,7 @@ query測試後判斷沒辦法直接用於SQLi或Directory Traversal
 Apache Commons Text  1.10.0 - Remote Code Execution                                                                                             | multiple/webapps/52261.py
 ------------------------------------------------------------------------------------------------------------------------------------------------ ---------------------------------
 ```
-![image](https://hackmd.io/_uploads/BJ7B8pNvWe.png)
+![image](_assets/BJ7B8pNvWe.png)
 搜尋到的Exploit是透過指令輸入達成RCE，判斷可用於search頁面的query參數
 ```python
 #!/usr/bin/env python3
