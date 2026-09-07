@@ -21,32 +21,50 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ```
 
 ## 80 HTTP
-![image](https://hackmd.io/_uploads/Byko8KKibx.png)
-![image](https://hackmd.io/_uploads/rJRBdtFo-l.png)
-![image](https://hackmd.io/_uploads/H1E4dFYi-x.png)
-![image](https://hackmd.io/_uploads/SyHw_tFs-l.png)
+
+![image](_assets/Byko8KKibx.png)
+
+![image](_assets/rJRBdtFo-l.png)
+
+![image](_assets/H1E4dFYi-x.png)
+
+![image](_assets/SyHw_tFs-l.png)
 
 1. /Dockerfile
-![image](https://hackmd.io/_uploads/HkaMFYtiWe.png)
+
+   ![image](_assets/HkaMFYtiWe.png)
 
 2. login
-![image](https://hackmd.io/_uploads/H1Vo9fhjWl.png)
+
+   ![image](_assets/H1Vo9fhjWl.png)
 
 3. readme.md
-![image](https://hackmd.io/_uploads/H1KLhfhj-l.png)
-![image](https://hackmd.io/_uploads/S12whz2oZg.png)
-![image](https://hackmd.io/_uploads/Byccnfho-g.png)
-![image](https://hackmd.io/_uploads/SJZ7pf3oZx.png)
-![image](https://hackmd.io/_uploads/SJSaTzns-x.png)
+
+   ![image](_assets/H1KLhfhj-l.png)
+
+   ![image](_assets/S12whz2oZg.png)
+
+   ![image](_assets/Byccnfho-g.png)
+
+   ![image](_assets/SJZ7pf3oZx.png)
+
+   ![image](_assets/SJSaTzns-x.png)
 
 4. cve
-![image](https://hackmd.io/_uploads/HyBeCz3obe.png)
+
+   ![image](_assets/HyBeCz3obe.png)
+
 https://github.com/Orange-Cyberdefense/CVE-repository/blob/master/PoCs/CVE_Jorani.py
-![image](https://hackmd.io/_uploads/rJ_bWmho-x.png)
+
+   ![image](_assets/rJ_bWmho-x.png)
 
 
 ## Privilege Escalation
-![image](https://hackmd.io/_uploads/H12NZXniWl.png)
-![image](https://hackmd.io/_uploads/ryGLbQhibg.png)
-![image](https://hackmd.io/_uploads/r1qZQ7hjZe.png)
-![image](https://hackmd.io/_uploads/BJ37Xm2o-l.png)
+
+![image](_assets/H12NZXniWl.png)
+
+![image](_assets/ryGLbQhibg.png)
+
+![image](_assets/r1qZQ7hjZe.png)
+
+![image](_assets/BJ37Xm2o-l.png)

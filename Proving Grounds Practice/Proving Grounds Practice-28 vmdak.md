@@ -73,55 +73,95 @@ Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
 ```
 
 ## 21 FTP
-![image](https://hackmd.io/_uploads/r1-cLUpibx.png)
-![image](https://hackmd.io/_uploads/r1V4PUToZg.png)
+
+![image](_assets/r1-cLUpibx.png)
+
+![image](_assets/r1V4PUToZg.png)
 
 ## 80 HTTP
-![image](https://hackmd.io/_uploads/HJHChIajWl.png)
-![image](https://hackmd.io/_uploads/H1SyaIasWl.png)
+
+![image](_assets/HJHChIajWl.png)
+
+![image](_assets/H1SyaIasWl.png)
 
 ## 9443 HTTP
-![image](https://hackmd.io/_uploads/H1oB8v6sWg.png)
+
+![image](_assets/H1oB8v6sWg.png)
 
 1. login
-![image](https://hackmd.io/_uploads/SywrwvaiZe.png)
-![image](https://hackmd.io/_uploads/ryKUwPTjZg.png)
-![image](https://hackmd.io/_uploads/BJSMOPTjbx.png)
+
+   ![image](_assets/SywrwvaiZe.png)
+
+   ![image](_assets/ryKUwPTjZg.png)
+
+   ![image](_assets/BJSMOPTjbx.png)
 
 2. RCE
 https://github.com/Aa1b/mycve/blob/main/Readme.md
-![image](https://hackmd.io/_uploads/B1zW5wasZl.png)
-![image](https://hackmd.io/_uploads/r1awoPTiZe.png)
-![image](https://hackmd.io/_uploads/Sk2inwpibe.png)
-![image](https://hackmd.io/_uploads/SkwhhP6jWx.png)
-![image](https://hackmd.io/_uploads/HkKanD6jWg.png)
-![image](https://hackmd.io/_uploads/Bk4RnPToWl.png)
+
+   ![image](_assets/B1zW5wasZl.png)
+
+   ![image](_assets/r1awoPTiZe.png)
+
+   ![image](_assets/Sk2inwpibe.png)
+
+   ![image](_assets/SkwhhP6jWx.png)
+
+   ![image](_assets/HkKanD6jWg.png)
+
+   ![image](_assets/Bk4RnPToWl.png)
 
 ## Privilege Escalation
-![image](https://hackmd.io/_uploads/S1lmXdajWl.png)
+
+![image](_assets/S1lmXdajWl.png)
+
 `sqlCr3ds3xp0seD`
-![image](https://hackmd.io/_uploads/r11UXdpjbe.png)
-![image](https://hackmd.io/_uploads/SyCDNOao-l.png)
-![image](https://hackmd.io/_uploads/H1gs4_6o-l.png)
-![image](https://hackmd.io/_uploads/rJ8lSO6o-x.png)
-![image](https://hackmd.io/_uploads/BJ54DdpiWx.png)
-![image](https://hackmd.io/_uploads/rksHvupiZx.png)
-![image](https://hackmd.io/_uploads/rkwIPuaoWg.png)
+
+![image](_assets/r11UXdpjbe.png)
+
+![image](_assets/SyCDNOao-l.png)
+
+![image](_assets/H1gs4_6o-l.png)
+
+![image](_assets/rJ8lSO6o-x.png)
+
+![image](_assets/BJ54DdpiWx.png)
+
+![image](_assets/rksHvupiZx.png)
+
+![image](_assets/rkwIPuaoWg.png)
+
 `Malcom:escobar2012`
-![image](https://hackmd.io/_uploads/Bk1mw_piWx.png)
+
+![image](_assets/Bk1mw_piWx.png)
+
 沒有Malcom這個使用者
-![image](https://hackmd.io/_uploads/rJxkuuTiWx.png)
-![image](https://hackmd.io/_uploads/ryZmd_aj-g.png)
+
+![image](_assets/rJxkuuTiWx.png)
+
+![image](_assets/ryZmd_aj-g.png)
+
 `RonnyCache001`
-![image](https://hackmd.io/_uploads/HyRDu_6s-l.png)
+
+![image](_assets/HyRDu_6s-l.png)
+
 `vmdak:RonnyCache001`
-![image](https://hackmd.io/_uploads/HkHWF_pj-x.png)
-![image](https://hackmd.io/_uploads/BJnNFuTsbx.png)
-![image](https://hackmd.io/_uploads/SyP33upi-e.png)
+
+![image](_assets/HkHWF_pj-x.png)
+
+![image](_assets/BJnNFuTsbx.png)
+
+![image](_assets/SyP33upi-e.png)
+
 `127.0.0.1:8080`
-![image](https://hackmd.io/_uploads/H1uWIc-2-l.png)
-![image](https://hackmd.io/_uploads/HkIAF5-3be.png)
-![image](https://hackmd.io/_uploads/ryD0j5bhZx.png)
-![image](https://hackmd.io/_uploads/BJGA-sb2Zg.png)
-![image](https://hackmd.io/_uploads/S1TAZjb2bx.png)
+
+![image](_assets/H1uWIc-2-l.png)
+
+![image](_assets/HkIAF5-3be.png)
+
+![image](_assets/ryD0j5bhZx.png)
+
+![image](_assets/BJGA-sb2Zg.png)
+
+![image](_assets/S1TAZjb2bx.png)
 

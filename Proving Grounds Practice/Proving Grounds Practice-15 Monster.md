@@ -14,7 +14,8 @@ SMB         192.168.216.180 445    MIKE-PC          [-] Mike-PC\anonymous:anonym
 ## 80 HTTP
 1. default page
 `http://192.168.216.180/` -> `http://192.168.216.180/index.html`
-![image](https://hackmd.io/_uploads/Bkjn6aDcWx.png)
+
+   ![image](_assets/Bkjn6aDcWx.png)
 
 2. dirsearch
 ```
@@ -98,13 +99,16 @@ Target: http://192.168.216.180/
 3. /blog
 `http://192.168.216.180/blog/`
 found CMS nmae
-![image](https://hackmd.io/_uploads/SyRj0TwcZl.png)
+
+   ![image](_assets/SyRj0TwcZl.png)
 
 4. CVE search
 `CVE-2018-9037` & `CVE-2018-6383`
 Found 2 cve but both describe same thing
-![image](https://hackmd.io/_uploads/S16A0Tw5Zg.png)
-![image](https://hackmd.io/_uploads/rJxrk0v9-x.png)
+
+   ![image](_assets/S16A0Tw5Zg.png)
+
+   ![image](_assets/rJxrk0v9-x.png)
 
 5. add hosts
 ```
@@ -122,36 +126,54 @@ ff02::2         ip6-allrouters
 6. walk around in /blog
 Two interesting page found
 - `https://monster.pg/blog/users`
-![image](https://hackmd.io/_uploads/HkgiAQ0v5-e.png)
+
+  ![image](_assets/HkgiAQ0v5-e.png)
 
 - `https://monster.pg/blog/admin/`
-![image](https://hackmd.io/_uploads/rJhxVCDc-g.png)
+
+  ![image](_assets/rJhxVCDc-g.png)
 
 7. test weak password
-![image](https://hackmd.io/_uploads/HyRQD_Wo-e.png)
-![image](https://hackmd.io/_uploads/rku2Dd-jWx.png)
+
+   ![image](_assets/HyRQD_Wo-e.png)
+
+   ![image](_assets/rku2Dd-jWx.png)
 
 8. upload function
 無法上傳普通png檔案，推測目標拒絕任何的檔案上傳
-![image](https://hackmd.io/_uploads/r1W6udWoZg.png)
-![image](https://hackmd.io/_uploads/S1YR__WjZe.png)
+
+   ![image](_assets/r1W6udWoZg.png)
+
+   ![image](_assets/S1YR__WjZe.png)
+
 `D4Zi17gXkAE8464.png`
-![D4Zi17gXkAE8464.png](https://hackmd.io/_uploads/SJgJq_-s-g.png)
-![image](https://hackmd.io/_uploads/ByRlKO-ibx.png)
+
+   ![D4Zi17gXkAE8464.png](_assets/SJgJq_-s-g.png)
+
+   ![image](_assets/ByRlKO-ibx.png)
 
 9. Backup function
 可以點擊按鈕進行備份，備份壓縮檔內為`C:/xampp/htdocs/blog`，在裡面一個檔案找到hash，但無法使用
-![image](https://hackmd.io/_uploads/HyUmqOWo-g.png)
-![image](https://hackmd.io/_uploads/Sy2FiOWjWx.png)
-![image](https://hackmd.io/_uploads/HkchNtZi-l.png)
-![image](https://hackmd.io/_uploads/ByzfBYbsbe.png)
-![image](https://hackmd.io/_uploads/HJ-UrYZiZg.png)
-![image](https://hackmd.io/_uploads/HyywrFWo-g.png)
+
+   ![image](_assets/HyUmqOWo-g.png)
+
+   ![image](_assets/Sy2FiOWjWx.png)
+
+   ![image](_assets/HkchNtZi-l.png)
+
+   ![image](_assets/ByzfBYbsbe.png)
+
+   ![image](_assets/HJ-UrYZiZg.png)
+
+   ![image](_assets/HyywrFWo-g.png)
 
 10. Exploit-DB
-![image](https://hackmd.io/_uploads/H1FzIK-oZl.png)
-![image](https://hackmd.io/_uploads/rk8i4FWsZe.png)
-![image](https://hackmd.io/_uploads/SJaCLY-iWg.png)
+
+    ![image](_assets/H1FzIK-oZl.png)
+
+    ![image](_assets/rk8i4FWsZe.png)
+
+    ![image](_assets/SJaCLY-iWg.png)
 
 ## Privilege Escalation
 1. whoami /all
@@ -199,12 +221,18 @@ SeTimeZonePrivilege           Change the time zone                 Disabled
 2. backup files
 https://simpleinfoseccom.wordpress.com/2018/05/27/monstra-cms-3-0-4-unauthenticated-user-credential-exposure/
 double md5 password hash
-![image](https://hackmd.io/_uploads/ByzfBYbsbe.png)
+
+   ![image](_assets/ByzfBYbsbe.png)
+
 `C:\xampp\htdocs\blog\boot\defines.php`
-![image](https://hackmd.io/_uploads/B1BAl5bo-x.png)
+
+   ![image](_assets/B1BAl5bo-x.png)
+
 `C:\xampp\htdocs\blog\engine\Security.php`
-![image](https://hackmd.io/_uploads/Bk_MbcZs-g.png)
-![image](https://hackmd.io/_uploads/rylKW9WsWe.png)
+
+   ![image](_assets/Bk_MbcZs-g.png)
+
+   ![image](_assets/rylKW9WsWe.png)
 
     - hashcat
     `sudo hashcat -m 2600 pass /usr/share/wordlists/rockyou.txt -r md5rule --force`
@@ -226,9 +254,14 @@ double md5 password hash
 
 3. xampp
 `C:\xampp\properties.ini`
-![image](https://hackmd.io/_uploads/ryy_ScbsZg.png)
-![image](https://hackmd.io/_uploads/rJF58c-oWl.png)
-![image](https://hackmd.io/_uploads/Sk0XP5Zi-l.png)
-![image](https://hackmd.io/_uploads/BkjZDqbsbx.png)
-![image](https://hackmd.io/_uploads/S1czv5-oZx.png)
+
+   ![image](_assets/ryy_ScbsZg.png)
+
+   ![image](_assets/rJF58c-oWl.png)
+
+   ![image](_assets/Sk0XP5Zi-l.png)
+
+   ![image](_assets/BkjZDqbsbx.png)
+
+   ![image](_assets/S1czv5-oZx.png)
 

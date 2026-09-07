@@ -51,18 +51,27 @@ Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
 ```
 
 ## 21 FTP
-![image](https://hackmd.io/_uploads/B1_xrh-nZg.png)
+
+![image](_assets/B1_xrh-nZg.png)
 
 ## 80 HTTP
-![image](https://hackmd.io/_uploads/BJGQBnZ3Zg.png)
+
+![image](_assets/BJGQBnZ3Zg.png)
 
 ## 8423
-![image](https://hackmd.io/_uploads/S10S_3-2Wg.png)
-![image](https://hackmd.io/_uploads/BkDCO2bn-x.png)
-![image](https://hackmd.io/_uploads/Skw4K2WhWx.png)
-![image](https://hackmd.io/_uploads/SkFzinb2-e.png)
+
+![image](_assets/S10S_3-2Wg.png)
+
+![image](_assets/BkDCO2bn-x.png)
+
+![image](_assets/Skw4K2WhWx.png)
+
+![image](_assets/SkFzinb2-e.png)
 
 ## Privilege Escalation
-![image](https://hackmd.io/_uploads/BkslMmQ3Wx.png)
-![image](https://hackmd.io/_uploads/HJIWfQX2Ze.png)
-![image](https://hackmd.io/_uploads/HyqfMmQh-g.png)
+
+![image](_assets/BkslMmQ3Wx.png)
+
+![image](_assets/HJIWfQX2Ze.png)
+
+![image](_assets/HyqfMmQh-g.png)

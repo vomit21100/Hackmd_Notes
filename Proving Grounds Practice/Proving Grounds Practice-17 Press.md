@@ -25,32 +25,51 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ```
 
 ## 80 HTTP
-![image](https://hackmd.io/_uploads/S1-veyfjbx.png)
-![image](https://hackmd.io/_uploads/HJOMmJGo-g.png)
+
+![image](_assets/S1-veyfjbx.png)
+
+![image](_assets/HJOMmJGo-g.png)
 
 ## 8089 HTTP
-![image](https://hackmd.io/_uploads/H1QqZyzjbx.png)
-![image](https://hackmd.io/_uploads/BJ87fyGjbe.png)
+
+![image](_assets/H1QqZyzjbx.png)
+
+![image](_assets/BJ87fyGjbe.png)
 
 1. login page
-![image](https://hackmd.io/_uploads/Hy7a41zsbe.png)
-![image](https://hackmd.io/_uploads/HkIySJMiWl.png)
+
+   ![image](_assets/Hy7a41zsbe.png)
+
+   ![image](_assets/HkIySJMiWl.png)
 
 2. upload page
 上傳功能沒辦法直接上傳php、php5之類的檔案，不過png等圖片能夠正常上傳
-![php](https://hackmd.io/_uploads/rkdMUyfobl.png)
+
+   ![php](_assets/rkdMUyfobl.png)
+
 在burp suite中把`Content-Type`修改為png也不行
-![image](https://hackmd.io/_uploads/SJN0x6zjZe.png)
-![image](https://hackmd.io/_uploads/rktN-aGjWl.png)
+
+   ![image](_assets/SJN0x6zjZe.png)
+
+   ![image](_assets/rktN-aGjWl.png)
+
 利用`Magic Byte`繞過類型檢查，但上傳後的結果只會保留最後一項副檔名，所以把`.php`放在最後面
-![image](https://hackmd.io/_uploads/SyvLbpfsbx.png)
-![image](https://hackmd.io/_uploads/rJxYWazi-l.png)
-![image](https://hackmd.io/_uploads/SJBs-6Mibl.png)
+
+   ![image](_assets/SyvLbpfsbx.png)
+
+   ![image](_assets/rJxYWazi-l.png)
+
+   ![image](_assets/SJBs-6Mibl.png)
+
 `http://192.168.237.29:8089/fp-content/attachs/mime_shellpng.php?cmd=id`
-![image](https://hackmd.io/_uploads/BywfM6fo-l.png)
+
+   ![image](_assets/BywfM6fo-l.png)
 
 
 ## Privilege Escalation
-![image](https://hackmd.io/_uploads/B1Hn2aGi-l.png)
-![image](https://hackmd.io/_uploads/ryNJTpzsWe.png)
-![image](https://hackmd.io/_uploads/HJIZpaGsbe.png)
+
+![image](_assets/B1Hn2aGi-l.png)
+
+![image](_assets/ryNJTpzsWe.png)
+
+![image](_assets/HJIZpaGsbe.png)

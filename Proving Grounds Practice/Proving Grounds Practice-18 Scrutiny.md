@@ -50,14 +50,20 @@ Service Info: Host:  onlyrands.com; OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ```
 
 ## 80 HTTP
-![image](https://hackmd.io/_uploads/HJYk-AMi-x.png)
-![image](https://hackmd.io/_uploads/HkidzCGoZl.png)
-![image](https://hackmd.io/_uploads/S105MCzibe.png)
+
+![image](_assets/HJYk-AMi-x.png)
+
+![image](_assets/HkidzCGoZl.png)
+
+![image](_assets/S105MCzibe.png)
 
 * login function
-![image](https://hackmd.io/_uploads/ryzEvAMiWe.png)
-![image](https://hackmd.io/_uploads/Bk-SvAMiWe.png)
-![image](https://hackmd.io/_uploads/By7pDRMiZe.png)
+
+  ![image](_assets/ryzEvAMiWe.png)
+
+  ![image](_assets/Bk-SvAMiWe.png)
+
+  ![image](_assets/By7pDRMiZe.png)
 
 * rce
 https://medium.com/@adamforsythebartlett/scrutiny-walkthrough-proving-grounds-practice-01737dd96583

@@ -16,56 +16,88 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ```
 
 ## 80 HTTP
-![image](https://hackmd.io/_uploads/S1Q4O8tobg.png)
-![image](https://hackmd.io/_uploads/HJDD_LYibx.png)
-![image](https://hackmd.io/_uploads/ryQuuUKjbg.png)
-![image](https://hackmd.io/_uploads/H1vhuLtoZx.png)
-![image](https://hackmd.io/_uploads/H1VJYUKi-l.png)
+
+![image](_assets/S1Q4O8tobg.png)
+
+![image](_assets/HJDD_LYibx.png)
+
+![image](_assets/ryQuuUKjbg.png)
+
+![image](_assets/H1vhuLtoZx.png)
+
+![image](_assets/H1VJYUKi-l.png)
 
 * exploit-db
-![image](https://hackmd.io/_uploads/BkkmYUtsbx.png)
-![image](https://hackmd.io/_uploads/H1IMF8YsZe.png)
+
+  ![image](_assets/BkkmYUtsbx.png)
+
+  ![image](_assets/H1IMF8YsZe.png)
 
 * search default password
 found default password in offical repository
 https://github.com/prasathmani/tinyfilemanager/blob/master/tinyfilemanager.php
-![image](https://hackmd.io/_uploads/SJUAcUYsbx.png)
-![image](https://hackmd.io/_uploads/S1-Nj8tj-x.png)
+
+  ![image](_assets/SJUAcUYsbx.png)
+
+  ![image](_assets/S1-Nj8tj-x.png)
 
 * findind password
-![image](https://hackmd.io/_uploads/SkjY7PFj-x.png)
-![image](https://hackmd.io/_uploads/BJC7SPKsWx.png)
+
+  ![image](_assets/SkjY7PFj-x.png)
+
+  ![image](_assets/BJC7SPKsWx.png)
 
 * CVE-2024-42007
 https://github.com/strikoder/CVE-2024-42007-POC
-![image](https://hackmd.io/_uploads/ryLp8PYiZl.png)
-![image](https://hackmd.io/_uploads/B1G0Lwtobg.png)
-![image](https://hackmd.io/_uploads/rJlcFvtjWl.png)
-![image](https://hackmd.io/_uploads/H1RctwKi-g.png)
-![image](https://hackmd.io/_uploads/rkOJzdYs-g.png)
+
+  ![image](_assets/ryLp8PYiZl.png)
+
+  ![image](_assets/B1G0Lwtobg.png)
+
+  ![image](_assets/rJlcFvtjWl.png)
+
+  ![image](_assets/H1RctwKi-g.png)
+
+  ![image](_assets/rkOJzdYs-g.png)
+
 `admin:lowprofile`
-![image](https://hackmd.io/_uploads/HJBQzOFjWx.png)
-![image](https://hackmd.io/_uploads/SJswzutibl.png)
-![image](https://hackmd.io/_uploads/r1AdMdtjZg.png)
-![image](https://hackmd.io/_uploads/Bka5MuYiWg.png)
-![image](https://hackmd.io/_uploads/H1t0N_Ksbe.png)
+
+  ![image](_assets/HJBQzOFjWx.png)
+
+  ![image](_assets/SJswzutibl.png)
+
+  ![image](_assets/r1AdMdtjZg.png)
+
+  ![image](_assets/Bka5MuYiWg.png)
+
+  ![image](_assets/H1t0N_Ksbe.png)
 
 ## Privilege Escalation
 1. SUID
-![image](https://hackmd.io/_uploads/ryJ0xttsZg.png)
+
+   ![image](_assets/ryJ0xttsZg.png)
 
 2. Capabilities
-![image](https://hackmd.io/_uploads/SypkbFtsbx.png)
+
+   ![image](_assets/SypkbFtsbx.png)
 
 3. Another user
 'profiler:lowprofile'
-![image](https://hackmd.io/_uploads/SJkvgttjWg.png)
-![image](https://hackmd.io/_uploads/SyP9ltYsZg.png)
+
+   ![image](_assets/SJkvgttjWg.png)
+
+   ![image](_assets/SyP9ltYsZg.png)
 
 4. sudo -l
-![image](https://hackmd.io/_uploads/HyN7bFYjWg.png)
-![image](https://hackmd.io/_uploads/SkrzGYKi-e.png)
-![image](https://hackmd.io/_uploads/HkQLftYi-l.png)
-![image](https://hackmd.io/_uploads/Hkhizttsbe.png)
-![/tmp/sh](https://hackmd.io/_uploads/H1grNKKsZe.png)
-![image](https://hackmd.io/_uploads/S1h8EFYoWg.png)
+
+   ![image](_assets/HyN7bFYjWg.png)
+
+   ![image](_assets/SkrzGYKi-e.png)
+
+   ![image](_assets/HkQLftYi-l.png)
+
+   ![image](_assets/Hkhizttsbe.png)
+
+   ![/tmp/sh](_assets/H1grNKKsZe.png)
+
+   ![image](_assets/S1h8EFYoWg.png)

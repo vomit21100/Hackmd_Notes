@@ -66,23 +66,39 @@ Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
 ```
 
 ## 21 & 3145 FTP
-![image](https://hackmd.io/_uploads/ryEXEXm3bx.png)
-![image](https://hackmd.io/_uploads/SJs0S7m3Wg.png)
-![image](https://hackmd.io/_uploads/Sycet7m3Wl.png)
-![image](https://hackmd.io/_uploads/ryd6u7Q2-l.png)
-![image](https://hackmd.io/_uploads/BJzvYm73-e.png)
-![image](https://hackmd.io/_uploads/rk_5FmQn-e.png)
-![image](https://hackmd.io/_uploads/Hk5RY7Q2-g.png)
-![image](https://hackmd.io/_uploads/SJUEcQQ3-e.png)
-![image](https://hackmd.io/_uploads/SybziX7nWx.png)
+
+![image](_assets/ryEXEXm3bx.png)
+
+![image](_assets/SJs0S7m3Wg.png)
+
+![image](_assets/Sycet7m3Wl.png)
+
+![image](_assets/ryd6u7Q2-l.png)
+
+![image](_assets/BJzvYm73-e.png)
+
+![image](_assets/rk_5FmQn-e.png)
+
+![image](_assets/Hk5RY7Q2-g.png)
+
+![image](_assets/SJUEcQQ3-e.png)
+
+![image](_assets/SybziX7nWx.png)
 
 ## 242 HTTP
-![image](https://hackmd.io/_uploads/HybKom7nZl.png)
-![image](https://hackmd.io/_uploads/BktYi7mn-x.png)
+
+![image](_assets/HybKom7nZl.png)
+
+![image](_assets/BktYi7mn-x.png)
 
 ## Privilege Escalation
-![image](https://hackmd.io/_uploads/Byq-3QQ3Zl.png)
-![image](https://hackmd.io/_uploads/HkUZYEmhWe.png)
-![image](https://hackmd.io/_uploads/SkWMYNm3Zl.png)
-![image](https://hackmd.io/_uploads/HkzZa47h-e.png)
-![image](https://hackmd.io/_uploads/Bk716VQ3Zl.png)
+
+![image](_assets/Byq-3QQ3Zl.png)
+
+![image](_assets/HkUZYEmhWe.png)
+
+![image](_assets/SkWMYNm3Zl.png)
+
+![image](_assets/HkzZa47h-e.png)
+
+![image](_assets/Bk716VQ3Zl.png)

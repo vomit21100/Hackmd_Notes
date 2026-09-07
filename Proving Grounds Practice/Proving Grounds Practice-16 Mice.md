@@ -48,29 +48,44 @@ Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
 ## 1978 remotemouse
 1. exploit-db
 把cale.exe的部份改成powershell reverse shell，但等待一段時間後還是未觸發
-![image](https://hackmd.io/_uploads/HJWL05Wo-e.png)
-![image](https://hackmd.io/_uploads/ryqDJj-sbx.png)
-![image](https://hackmd.io/_uploads/B1rW-jWobl.png)
+
+   ![image](_assets/HJWL05Wo-e.png)
+
+   ![image](_assets/ryqDJj-sbx.png)
+
+   ![image](_assets/B1rW-jWobl.png)
 
 2. github
 `https://github.com/p0dalirius/RemoteMouse-3.008-Exploit/blob/master/RemoteMouse-3.008-Exploit.py`
-![image](https://hackmd.io/_uploads/BJ12WoWobx.png)
-![image](https://hackmd.io/_uploads/ByC_Li-oWx.png)
-![image](https://hackmd.io/_uploads/B1JqLsWoZe.png)
-![image](https://hackmd.io/_uploads/Sk3qLsbjbg.png)
+
+   ![image](_assets/BJ12WoWobx.png)
+
+   ![image](_assets/ByC_Li-oWx.png)
+
+   ![image](_assets/B1JqLsWoZe.png)
+
+   ![image](_assets/Sk3qLsbjbg.png)
 
 ## Privilege Escalation
 1. local files
 `Get-ChildItem -Path C:\ -Include *.ini,*.cfg,*.xml -File -Force -Recurse -ErrorAction SilentlyContinue | where-Object { $_.FullName -notmatch 'C:\\Windows\\' -and $_.Name -notin 'desktop.ini','ntuser.ini' }`
 winpeas裡面沒有找到有用的資訊，只剩windows的版本更新漏洞還沒查，但優先查看其他有讀取權限的檔案
-![image](https://hackmd.io/_uploads/B1uUjoZobg.png)
-![image](https://hackmd.io/_uploads/rJNMhiWj-g.png)
-![image](https://hackmd.io/_uploads/ryXv3j-sZl.png)
+
+   ![image](_assets/B1uUjoZobg.png)
+
+   ![image](_assets/rJNMhiWj-g.png)
+
+   ![image](_assets/ryXv3j-sZl.png)
 
 2. exploit-db
-![image](https://hackmd.io/_uploads/BycaTsZoWe.png)
-![image](https://hackmd.io/_uploads/ryRm1hbsZx.png)
-![image](https://hackmd.io/_uploads/HyJHJhZsZg.png)
-![image](https://hackmd.io/_uploads/SJ9M13-o-g.png)
-![image](https://hackmd.io/_uploads/H1ZIJ3ZiZg.png)
+
+   ![image](_assets/BycaTsZoWe.png)
+
+   ![image](_assets/ryRm1hbsZx.png)
+
+   ![image](_assets/HyJHJhZsZg.png)
+
+   ![image](_assets/SJ9M13-o-g.png)
+
+   ![image](_assets/H1ZIJ3ZiZg.png)
 

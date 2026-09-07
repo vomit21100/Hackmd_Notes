@@ -1,44 +1,63 @@
 https://portal.offsec.com/machine/law-52188/overview/details
 
 ## Introduce
-![image](https://hackmd.io/_uploads/B17L_kcDgg.png)
+
+![image](_assets/B17L_kcDgg.png)
 
 ## Reconnaissance
 * CVE-2022-35914
-![image](https://hackmd.io/_uploads/SyZtKk9vee.png)
+
+  ![image](_assets/SyZtKk9vee.png)
 
 * namp
-![image](https://hackmd.io/_uploads/S1RidkcDle.png)
+
+  ![image](_assets/S1RidkcDle.png)
 
 * web
-![image](https://hackmd.io/_uploads/ByhiY1cDgl.png)
-![image](https://hackmd.io/_uploads/rkeRzcyqPeg.png)
-![image](https://hackmd.io/_uploads/BkQ3919Peg.png)
+
+  ![image](_assets/ByhiY1cDgl.png)
+
+  ![image](_assets/rkeRzcyqPeg.png)
+
+  ![image](_assets/BkQ3919Peg.png)
 
 ## Exploit
 * CVE-2022-35914
-![image](https://hackmd.io/_uploads/B1aWC15Dle.png)
-![image](https://hackmd.io/_uploads/SyCV0yqwle.png)
-![image](https://hackmd.io/_uploads/HJRhC19Pgg.png)
-![image](https://hackmd.io/_uploads/BynACy9Dee.png)
+
+  ![image](_assets/B1aWC15Dle.png)
+
+  ![image](_assets/SyCV0yqwle.png)
+
+  ![image](_assets/HJRhC19Pgg.png)
+
+  ![image](_assets/BynACy9Dee.png)
 
 ## Privilege Escalation
 * sudo -l
-![image](https://hackmd.io/_uploads/ByLrZx5Pgx.png)
+
+  ![image](_assets/ByLrZx5Pgx.png)
 
 * SUID
-![image](https://hackmd.io/_uploads/rykwMeqwge.png)
-![image](https://hackmd.io/_uploads/S1FuGgcPgx.png)
+
+  ![image](_assets/rykwMeqwge.png)
+
+  ![image](_assets/S1FuGgcPgx.png)
 
 * Capabilities
-![image](https://hackmd.io/_uploads/Hkzomg5wxl.png)
+
+  ![image](_assets/Hkzomg5wxl.png)
 
 * Cron Jobs
-![image](https://hackmd.io/_uploads/H1Opmxqwxl.png)
+
+  ![image](_assets/H1Opmxqwxl.png)
 
 * cleanup
-![image](https://hackmd.io/_uploads/rkGH4alulx.png)
-![image](https://hackmd.io/_uploads/r1kgSalule.png)
-![image](https://hackmd.io/_uploads/Bkh-Bpeuex.png)
-![image](https://hackmd.io/_uploads/SkGmHTx_eg.png)
+
+  ![image](_assets/rkGH4alulx.png)
+
+  ![image](_assets/r1kgSalule.png)
+
+  ![image](_assets/Bkh-Bpeuex.png)
+
+  ![image](_assets/SkGmHTx_eg.png)
 

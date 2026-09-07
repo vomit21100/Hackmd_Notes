@@ -1,13 +1,18 @@
 ## NMAP
-![image](https://hackmd.io/_uploads/H1GeAVmJMx.png)
+
+![image](_assets/H1GeAVmJMx.png)
 
 ## 21 FTP
-![image](https://hackmd.io/_uploads/ByyVAV7kMe.png)
-![image](https://hackmd.io/_uploads/r1hYAN7yMx.png)
-![image](https://hackmd.io/_uploads/S156gBQJfl.png)
+
+![image](_assets/ByyVAV7kMe.png)
+
+![image](_assets/r1hYAN7yMx.png)
+
+![image](_assets/S156gBQJfl.png)
 
 ## 445 SMB
-![image](https://hackmd.io/_uploads/rkNdGBXkGx.png)
+
+![image](_assets/rkNdGBXkGx.png)
 
 ## Privilege Escalation
 

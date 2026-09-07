@@ -38,23 +38,36 @@ Service Info: Host: PELICAN; OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ```
 
 ## 445 SMB
-![image](https://hackmd.io/_uploads/rkN-LgHpWg.png)
+
+![image](_assets/rkN-LgHpWg.png)
 
 ## 8081
-![image](https://hackmd.io/_uploads/Sy37_gH6Zg.png)
-![image](https://hackmd.io/_uploads/r134OgBabe.png)
-![image](https://hackmd.io/_uploads/ByqF_xHT-g.png)
-![image](https://hackmd.io/_uploads/Hkdqugrp-g.png)
-![image](https://hackmd.io/_uploads/ryoMYgBTZg.png)
-![image](https://hackmd.io/_uploads/rkB-KxB6Zg.png)
+
+![image](_assets/Sy37_gH6Zg.png)
+
+![image](_assets/r134OgBabe.png)
+
+![image](_assets/ByqF_xHT-g.png)
+
+![image](_assets/Hkdqugrp-g.png)
+
+![image](_assets/ryoMYgBTZg.png)
+
+![image](_assets/rkB-KxB6Zg.png)
 
 ## Privilege Escalation
-![image](https://hackmd.io/_uploads/HyZ8jxSp-g.png)
-![image](https://hackmd.io/_uploads/SyPOseBT-g.png)
-![image](https://hackmd.io/_uploads/SkO-kWSTbx.png)
-![image](https://hackmd.io/_uploads/H1M7yZST-g.png)
-![image](https://hackmd.io/_uploads/SyP_1bHpWe.png)
-![image](https://hackmd.io/_uploads/HkU9kbBpZe.png)
+
+![image](_assets/HyZ8jxSp-g.png)
+
+![image](_assets/SyPOseBT-g.png)
+
+![image](_assets/SkO-kWSTbx.png)
+
+![image](_assets/H1M7yZST-g.png)
+
+![image](_assets/SyP_1bHpWe.png)
+
+![image](_assets/HkU9kbBpZe.png)
 
 ## REF
 https://medium.com/@fehzanvayani/oscp-proving-grounds-pelican-9d59ebe6c6fb

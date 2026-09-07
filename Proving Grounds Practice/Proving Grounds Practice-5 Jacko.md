@@ -5,39 +5,59 @@ https://portal.offsec.com/machine/jacko-264/overview/details
 
 
 ## Introduce
-![image](https://hackmd.io/_uploads/ByecIX6Fgl.png)
+
+![image](_assets/ByecIX6Fgl.png)
 
 ## Reconnaissance
 * nmap
-![image](https://hackmd.io/_uploads/rJDfPmpFel.png)
+
+  ![image](_assets/rJDfPmpFel.png)
 
 * web
-![image](https://hackmd.io/_uploads/SJdUDX6Fgl.png)
-![image](https://hackmd.io/_uploads/BJGFPX6Ygl.png)
+
+  ![image](_assets/SJdUDX6Fgl.png)
+
+  ![image](_assets/BJGFPX6Ygl.png)
+
     * port 8082
-    ![image](https://hackmd.io/_uploads/BkcoP7atlx.png)
-    ![image](https://hackmd.io/_uploads/Sk56wmTYxe.png)
-    ![image](https://hackmd.io/_uploads/rytJ_mpFlg.png)
+
+      ![image](_assets/BkcoP7atlx.png)
+
+      ![image](_assets/Sk56wmTYxe.png)
+
+      ![image](_assets/rytJ_mpFlg.png)
 
 
 ## Exploit
 * Exploit Database
-![image](https://hackmd.io/_uploads/Sk65OXaKgg.png)
-![image](https://hackmd.io/_uploads/ryratm6txg.png)
-![image](https://hackmd.io/_uploads/ryKe9QpKll.png)
-![image](https://hackmd.io/_uploads/HkYjp76Kge.png)
-![image](https://hackmd.io/_uploads/HJqTpXpYxl.png)
+
+  ![image](_assets/Sk65OXaKgg.png)
+
+  ![image](_assets/ryratm6txg.png)
+
+  ![image](_assets/ryKe9QpKll.png)
+
+  ![image](_assets/HkYjp76Kge.png)
+
+  ![image](_assets/HJqTpXpYxl.png)
 
 ## Connect to target
 * Impacket-smbserver
-![image](https://hackmd.io/_uploads/BJ7DIS6Kex.png)
-![image](https://hackmd.io/_uploads/rkluLrTYgg.png)
-![image](https://hackmd.io/_uploads/H1e8IH6Flx.png)
+
+  ![image](_assets/BJ7DIS6Kex.png)
+
+  ![image](_assets/rkluLrTYgg.png)
+
+  ![image](_assets/H1e8IH6Flx.png)
 
 
 ## Privilege Escalation
 * Installed Program
-![image](https://hackmd.io/_uploads/SJH0ZKRFel.png)
-![image](https://hackmd.io/_uploads/HJAY6YCKgx.png)
-![image](https://hackmd.io/_uploads/HkRhJcCKxl.png)
-![image](https://hackmd.io/_uploads/SymCk90tgg.png)
+
+  ![image](_assets/SJH0ZKRFel.png)
+
+  ![image](_assets/HJAY6YCKgx.png)
+
+  ![image](_assets/HkRhJcCKxl.png)
+
+  ![image](_assets/SymCk90tgg.png)

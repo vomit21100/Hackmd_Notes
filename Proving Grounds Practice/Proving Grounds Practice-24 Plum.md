@@ -19,29 +19,48 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ```
 
 ## 80 HTTP
-![image](https://hackmd.io/_uploads/BkPr0Wus-e.png)
-![image](https://hackmd.io/_uploads/rJdQQGOjbx.png)
+
+![image](_assets/BkPr0Wus-e.png)
+
+![image](_assets/rJdQQGOjbx.png)
+
 `admin:admin`
-![image](https://hackmd.io/_uploads/HJHHmz_jbl.png)
-![image](https://hackmd.io/_uploads/HyPvXGds-g.png)
+
+![image](_assets/HJHHmz_jbl.png)
+
+![image](_assets/HyPvXGds-g.png)
+
 https://github.com/MoritzHuppert/CVE-2022-25018/blob/main/CVE-2022-25018.pdf
-![image](https://hackmd.io/_uploads/HJZSNMOjbe.png)
-![image](https://hackmd.io/_uploads/HkGyrMuoZg.png)
-![image](https://hackmd.io/_uploads/BJcmHz_o-x.png)
+
+![image](_assets/HJZSNMOjbe.png)
+
+![image](_assets/HkGyrMuoZg.png)
+
+![image](_assets/BJcmHz_o-x.png)
+
 `http://192.168.171.28/index.php?static1/static-1&cmd=id`
-![image](https://hackmd.io/_uploads/rJfrrGuiWl.png)
-![image](https://hackmd.io/_uploads/rkGJIfOoZe.png)
+
+![image](_assets/rJfrrGuiWl.png)
+
+![image](_assets/rkGJIfOoZe.png)
 
 ## Privilege Escalation
 1. SUID
 失敗
-![image](https://hackmd.io/_uploads/BJve0M_jWg.png)
-![image](https://hackmd.io/_uploads/rJYUAfOjbe.png)
-![image](https://hackmd.io/_uploads/HJPw0z_oZg.png)
-![image](https://hackmd.io/_uploads/HkVTAGOo-x.png)
+
+   ![image](_assets/BJve0M_jWg.png)
+
+   ![image](_assets/rJYUAfOjbe.png)
+
+   ![image](_assets/HJPw0z_oZg.png)
+
+   ![image](_assets/HkVTAGOo-x.png)
 
 2. SMTP
-![image](https://hackmd.io/_uploads/SkdTMQusZx.png)
-![image](https://hackmd.io/_uploads/HkWPQX_jbx.png)
-![image](https://hackmd.io/_uploads/S1-FX7djWx.png)
+
+   ![image](_assets/SkdTMQusZx.png)
+
+   ![image](_assets/HkWPQX_jbx.png)
+
+   ![image](_assets/S1-FX7djWx.png)
 

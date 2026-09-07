@@ -47,48 +47,78 @@ Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
 ```
 
 ## 21 FTP
-![image](https://hackmd.io/_uploads/SJbZG2SoWe.png)
+
+![image](_assets/SJbZG2SoWe.png)
 
 ## 80 HTTP
-![image](https://hackmd.io/_uploads/HkpkOR8o-e.png)
-![image](https://hackmd.io/_uploads/Sk0Tw0UiWg.png)
-![image](https://hackmd.io/_uploads/r1RGuAUjbx.png)
-![image](https://hackmd.io/_uploads/SyaUmyDsWg.png)
-![image](https://hackmd.io/_uploads/rkd57yvobl.png)
+
+![image](_assets/HkpkOR8o-e.png)
+
+![image](_assets/Sk0Tw0UiWg.png)
+
+![image](_assets/r1RGuAUjbx.png)
+
+![image](_assets/SyaUmyDsWg.png)
+
+![image](_assets/rkd57yvobl.png)
+
 https://github.com/BwithE/CVE-2024-9796/blob/main/README.md
-![image](https://hackmd.io/_uploads/rkL1Nywobl.png)
-![image](https://hackmd.io/_uploads/SyWL4yPsbx.png)
-![image](https://hackmd.io/_uploads/B1VK_yDjZl.png)
-![image](https://hackmd.io/_uploads/ryTcK1vjbl.png)
+
+![image](_assets/rkL1Nywobl.png)
+
+![image](_assets/SyWL4yPsbx.png)
+
+![image](_assets/B1VK_yDjZl.png)
+
+![image](_assets/ryTcK1vjbl.png)
+
 ted跟charlie在網站裡都沒有權限
 
 ## 22 SSH
-![image](https://hackmd.io/_uploads/HkwyKJvo-x.png)
+
+![image](_assets/HkwyKJvo-x.png)
 
 ## 21 FTP AGAIN
-![image](https://hackmd.io/_uploads/BJ2rcJvo-e.png)
-![image](https://hackmd.io/_uploads/SJQV21vsZg.png)
-![wp-config.php](https://hackmd.io/_uploads/SJQa3ywobl.png)
+
+![image](_assets/BJ2rcJvo-e.png)
+
+![image](_assets/SJQV21vsZg.png)
+
+![wp-config.php](_assets/SJQa3ywobl.png)
 
 ## Password spray
-![image](https://hackmd.io/_uploads/ByPbayPoWe.png)
-![image](https://hackmd.io/_uploads/ryqgC1wiZl.png)
-![image](https://hackmd.io/_uploads/rJ7fR1Pobx.png)
-![image](https://hackmd.io/_uploads/HJ50pywiWl.png)
+
+![image](_assets/ByPbayPoWe.png)
+
+![image](_assets/ryqgC1wiZl.png)
+
+![image](_assets/rJ7fR1Pobx.png)
+
+![image](_assets/HJ50pywiWl.png)
 
 ## Privilege Escalation
 1. password reuse
 `okadamat17`
-![image](https://hackmd.io/_uploads/BJbbfews-x.png)
+
+   ![image](_assets/BJbbfews-x.png)
 
 2. linpeas
-![image](https://hackmd.io/_uploads/BJcCfWwoWl.png)
-![image](https://hackmd.io/_uploads/SkTY4-wo-e.png)
-![image](https://hackmd.io/_uploads/BJxtVZDi-l.png)
-![image](https://hackmd.io/_uploads/B1BZS-Pi-g.png)
-![image](https://hackmd.io/_uploads/BkWVLWvs-l.png)
-![image](https://hackmd.io/_uploads/rJxgU-Ds-g.png)
-![image](https://hackmd.io/_uploads/Bk65IbPiZx.png)
-![image](https://hackmd.io/_uploads/rJuZDbwobx.png)
-![image](https://hackmd.io/_uploads/H1BXvbwobl.png)
+
+   ![image](_assets/BJcCfWwoWl.png)
+
+   ![image](_assets/SkTY4-wo-e.png)
+
+   ![image](_assets/BJxtVZDi-l.png)
+
+   ![image](_assets/B1BZS-Pi-g.png)
+
+   ![image](_assets/BkWVLWvs-l.png)
+
+   ![image](_assets/rJxgU-Ds-g.png)
+
+   ![image](_assets/Bk65IbPiZx.png)
+
+   ![image](_assets/rJuZDbwobx.png)
+
+   ![image](_assets/H1BXvbwobl.png)
 

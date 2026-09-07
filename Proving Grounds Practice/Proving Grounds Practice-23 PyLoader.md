@@ -21,26 +21,45 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 ## 9666 HTTP
 `http://192.168.171.26:9666` 302-> `http://192.168.171.26:9666/login?next=http://192.168.171.26:9666/`
-![image](https://hackmd.io/_uploads/BJHiTeusWl.png)
+
+![image](_assets/BJHiTeusWl.png)
+
 `admin:admin`
-![image](https://hackmd.io/_uploads/HkbzCgdibe.png)
+
+![image](_assets/HkbzCgdibe.png)
+
 `admin:password`
-![image](https://hackmd.io/_uploads/SksTeZdoWg.png)
-![image](https://hackmd.io/_uploads/BJBHzZOoZg.png)
+
+![image](_assets/SksTeZdoWg.png)
+
+![image](_assets/BJBHzZOoZg.png)
+
 https://github.com/pyload/pyload
 `pyload:pyload`
-![image](https://hackmd.io/_uploads/Hk-2-W_iWx.png)
-![image](https://hackmd.io/_uploads/SJP9zWusZg.png)
-![image](https://hackmd.io/_uploads/SyhMPWdjWg.png)
-![image](https://hackmd.io/_uploads/rJWPD-uiWg.png)
-![image](https://hackmd.io/_uploads/SJpVDZOobe.png)
+
+![image](_assets/Hk-2-W_iWx.png)
+
+![image](_assets/SJP9zWusZg.png)
+
+![image](_assets/SyhMPWdjWg.png)
+
+![image](_assets/rJWPD-uiWg.png)
+
+![image](_assets/SJpVDZOobe.png)
 
 * exploi-db
-![image](https://hackmd.io/_uploads/rk3KubuiZx.png)
-![image](https://hackmd.io/_uploads/Hk5c_-ujZx.png)
-![image](https://hackmd.io/_uploads/r1Si_ZuiZe.png)
-![image](https://hackmd.io/_uploads/HkukhWdjWe.png)
+
+  ![image](_assets/rk3KubuiZx.png)
+
+  ![image](_assets/Hk5c_-ujZx.png)
+
+  ![image](_assets/r1Si_ZuiZe.png)
+
+  ![image](_assets/HkukhWdjWe.png)
+
 上面的執行失敗，原因未知
-![image](https://hackmd.io/_uploads/SyKlnW_iWe.png)
-![image](https://hackmd.io/_uploads/HJfEhWdiZl.png)
+
+  ![image](_assets/SyKlnW_iWe.png)
+
+  ![image](_assets/HJfEhWdiZl.png)
 

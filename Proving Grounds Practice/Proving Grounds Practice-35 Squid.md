@@ -29,27 +29,42 @@ Host script results:
 ```
 
 ## 445 SMB
-![image](https://hackmd.io/_uploads/HJw0q6anZg.png)
+
+![image](_assets/HJw0q6anZg.png)
 
 ## 3128 HTTP-PROXY
-![image](https://hackmd.io/_uploads/rJBWi6p3Zx.png)
-![image](https://hackmd.io/_uploads/S1vhJ0T2Wl.png)
-![image](https://hackmd.io/_uploads/HkFuU80hZl.png)
+
+![image](_assets/rJBWi6p3Zx.png)
+
+![image](_assets/S1vhJ0T2Wl.png)
+
+![image](_assets/HkFuU80hZl.png)
 
 ## 8080
-![image](https://hackmd.io/_uploads/HkG5wL0h-g.png)
-![image](https://hackmd.io/_uploads/SJHEtI02Wx.png)
-![image](https://hackmd.io/_uploads/S1z4lPAnbe.png)
-![image](https://hackmd.io/_uploads/BJRNlwC2Wg.png)
-![image](https://hackmd.io/_uploads/ry_eWPC3bx.png)
-![image](https://hackmd.io/_uploads/B1LbWPAn-g.png)
-![image](https://hackmd.io/_uploads/B1V_7wA3Wl.png)
-![image](https://hackmd.io/_uploads/SyJYXPAhWg.png)
-![image](https://hackmd.io/_uploads/rJ8FIvRnWl.png)
-![image](https://hackmd.io/_uploads/B1NmwwRnWl.png)
+
+![image](_assets/HkG5wL0h-g.png)
+
+![image](_assets/SJHEtI02Wx.png)
+
+![image](_assets/S1z4lPAnbe.png)
+
+![image](_assets/BJRNlwC2Wg.png)
+
+![image](_assets/ry_eWPC3bx.png)
+
+![image](_assets/B1LbWPAn-g.png)
+
+![image](_assets/B1V_7wA3Wl.png)
+
+![image](_assets/SyJYXPAhWg.png)
+
+![image](_assets/rJ8FIvRnWl.png)
+
+![image](_assets/B1NmwwRnWl.png)
 
 ## Privilege Escalation
-![image](https://hackmd.io/_uploads/B1J9OwCnWl.png)
+
+![image](_assets/B1J9OwCnWl.png)
 
 ## REF
 https://infosecwriteups.com/proving-grounds-practice-squid-walkthrough-f761d2da973f

@@ -62,45 +62,74 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ```
 
 ## 80 HTTP
-![image](https://hackmd.io/_uploads/SyYfsQnoZl.png)
-![image](https://hackmd.io/_uploads/ry_Ijm3iWx.png)
-![image](https://hackmd.io/_uploads/r15DjXhjWg.png)
+
+![image](_assets/SyYfsQnoZl.png)
+
+![image](_assets/ry_Ijm3iWx.png)
+
+![image](_assets/r15DjXhjWg.png)
 
 1. git-dumper
 https://github.com/arthaud/git-dumper
-![image](https://hackmd.io/_uploads/S1Ju2mhsWl.png)
-![image](https://hackmd.io/_uploads/B1v9nmnobx.png)
-![image](https://hackmd.io/_uploads/B1WbTQ2iWx.png)
-![image](https://hackmd.io/_uploads/HJQrC7njWg.png)
+
+   ![image](_assets/S1Ju2mhsWl.png)
+
+   ![image](_assets/B1v9nmnobx.png)
+
+   ![image](_assets/B1WbTQ2iWx.png)
+
+   ![image](_assets/HJQrC7njWg.png)
 
 2. EMPLOYEE PLANNING PORTAL
-![image](https://hackmd.io/_uploads/H1c9MNniWl.png)
-![image](https://hackmd.io/_uploads/rJg2GEnoWg.png)
-![image](https://hackmd.io/_uploads/SksvfNnibx.png)
-![image](https://hackmd.io/_uploads/H1fmX42obe.png)
+
+   ![image](_assets/H1c9MNniWl.png)
+
+   ![image](_assets/rJg2GEnoWg.png)
+
+   ![image](_assets/SksvfNnibx.png)
+
+   ![image](_assets/H1fmX42obe.png)
 
 ## 3306 MYSQL
 1. `bitforge_customer_db`
-![image](https://hackmd.io/_uploads/ByX6SNnsbx.png)
+
+   ![image](_assets/ByX6SNnsbx.png)
+
 2. `soplanning`
-![image](https://hackmd.io/_uploads/rJtlLV2sZe.png)
-![image](https://hackmd.io/_uploads/rk3vI42jWg.png)
-![image](https://hackmd.io/_uploads/S1iUw43oZx.png)
-![image](https://hackmd.io/_uploads/rk3BOV3iZx.png)
-![image](https://hackmd.io/_uploads/Bki2dEhsWg.png)
-![image](https://hackmd.io/_uploads/B1VpdNni-x.png)
+
+   ![image](_assets/rJtlLV2sZe.png)
+
+   ![image](_assets/rk3vI42jWg.png)
+
+   ![image](_assets/S1iUw43oZx.png)
+
+   ![image](_assets/rk3BOV3iZx.png)
+
+   ![image](_assets/Bki2dEhsWg.png)
+
+   ![image](_assets/B1VpdNni-x.png)
 
 ## 80 HTTP CVE
-![image](https://hackmd.io/_uploads/S1RKFEnibx.png)
+
+![image](_assets/S1RKFEnibx.png)
+
 https://www.exploit-db.com/exploits/52082
-![image](https://hackmd.io/_uploads/BkD5YV3jZx.png)
-![image](https://hackmd.io/_uploads/rJbF2E2iWe.png)
-![image](https://hackmd.io/_uploads/SJE9h4nobl.png)
-![image](https://hackmd.io/_uploads/Hygu24hsZx.png)
-![image](https://hackmd.io/_uploads/B1Z3nV2sbx.png)
-![image](https://hackmd.io/_uploads/r16goVnjWg.png)
-![image](https://hackmd.io/_uploads/ry0-i42s-g.png)
-![image](https://hackmd.io/_uploads/S1m63N2ibg.png)
+
+![image](_assets/BkD5YV3jZx.png)
+
+![image](_assets/rJbF2E2iWe.png)
+
+![image](_assets/SJE9h4nobl.png)
+
+![image](_assets/Hygu24hsZx.png)
+
+![image](_assets/B1Z3nV2sbx.png)
+
+![image](_assets/r16goVnjWg.png)
+
+![image](_assets/ry0-i42s-g.png)
+
+![image](_assets/S1m63N2ibg.png)
 
 
 ## Privilege Escalation
@@ -109,12 +138,19 @@ https://www.exploit-db.com/exploits/52082
 SUID、Crontab、backup都沒找到東西
 
 2. pspy
-![image](https://hackmd.io/_uploads/Syr5XI2sWl.png)
-![image](https://hackmd.io/_uploads/ByKhm83jWe.png)
+
+   ![image](_assets/Syr5XI2sWl.png)
+
+   ![image](_assets/ByKhm83jWe.png)
 
 3. sudo
-![image](https://hackmd.io/_uploads/SkT6mUnjWx.png)
-![image](https://hackmd.io/_uploads/HJh3IL2iZl.png)
-![image](https://hackmd.io/_uploads/rysjLLhs-g.png)
-![image](https://hackmd.io/_uploads/r1668Ino-e.png)
-![image](https://hackmd.io/_uploads/ByKziI3j-e.png)
+
+   ![image](_assets/SkT6mUnjWx.png)
+
+   ![image](_assets/HJh3IL2iZl.png)
+
+   ![image](_assets/rysjLLhs-g.png)
+
+   ![image](_assets/r1668Ino-e.png)
+
+   ![image](_assets/ByKziI3j-e.png)

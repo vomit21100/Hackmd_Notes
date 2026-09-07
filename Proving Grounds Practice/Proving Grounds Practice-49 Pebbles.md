@@ -1,52 +1,87 @@
 ## NMAP
-![image](https://hackmd.io/_uploads/ry0BagwWfl.png)
+
+![image](_assets/ry0BagwWfl.png)
 
 ## 21 FTP
-![image](https://hackmd.io/_uploads/HJNY6xPZfe.png)
+
+![image](_assets/HJNY6xPZfe.png)
 
 ## 8080 HTTP
-![image](https://hackmd.io/_uploads/SkOXiewWGg.png)
-![image](https://hackmd.io/_uploads/SkxlZ-P-fx.png)
-![image](https://hackmd.io/_uploads/HksCxZDZfg.png)
+
+![image](_assets/SkOXiewWGg.png)
+
+![image](_assets/SkxlZ-P-fx.png)
+
+![image](_assets/HksCxZDZfg.png)
+
 * XSS
-![image](https://hackmd.io/_uploads/BJQ4ZZvZfl.png)
-![image](https://hackmd.io/_uploads/B1gw-Wv-Gg.png)
-![image](https://hackmd.io/_uploads/Bkl_iddv-fe.png)
+
+  ![image](_assets/BJQ4ZZvZfl.png)
+
+  ![image](_assets/B1gw-Wv-Gg.png)
+
+  ![image](_assets/Bkl_iddv-fe.png)
 
 * SQLi
-![image](https://hackmd.io/_uploads/rys7FOwbfe.png)
-![image](https://hackmd.io/_uploads/BJHSYuvbGe.png)
-![image](https://hackmd.io/_uploads/rJt3KOwbzl.png)
-![image](https://hackmd.io/_uploads/Sko9HtDWMg.png)
+
+  ![image](_assets/rys7FOwbfe.png)
+
+  ![image](_assets/BJHSYuvbGe.png)
+
+  ![image](_assets/rJt3KOwbzl.png)
+
+  ![image](_assets/Sko9HtDWMg.png)
 
 ## Privilege Escalation
 * mysql
-![image](https://hackmd.io/_uploads/SJGLDtvWfx.png)
+
+  ![image](_assets/SJGLDtvWfx.png)
+
 `ShinyLucentMarker361`
-![image](https://hackmd.io/_uploads/Sk6mDKPbfl.png)
-![image](https://hackmd.io/_uploads/HJ1cwtv-Gg.png)
-![image](https://hackmd.io/_uploads/HynhdKDbzg.png)
-![image](https://hackmd.io/_uploads/H1ZlYtDZMx.png)
-![image](https://hackmd.io/_uploads/rJq9FKDbGx.png)
-![image](https://hackmd.io/_uploads/SJghKKvbzx.png)
-![image](https://hackmd.io/_uploads/B1b_pKvZMe.png)
-![image](https://hackmd.io/_uploads/HJRDCYPWMx.png)
+
+  ![image](_assets/Sk6mDKPbfl.png)
+
+  ![image](_assets/HJ1cwtv-Gg.png)
+
+  ![image](_assets/HynhdKDbzg.png)
+
+  ![image](_assets/H1ZlYtDZMx.png)
+
+  ![image](_assets/rJq9FKDbGx.png)
+
+  ![image](_assets/SJghKKvbzx.png)
+
+  ![image](_assets/B1b_pKvZMe.png)
+
+  ![image](_assets/HJRDCYPWMx.png)
+
 mysql寫入的檔案是root權限，但沒辦法讀取/etc/shadow
-![image](https://hackmd.io/_uploads/HyPA0FD-fe.png)
+
+  ![image](_assets/HyPA0FD-fe.png)
 
 * crontab
-![image](https://hackmd.io/_uploads/BJ_fbjwbGl.png)
-![image](https://hackmd.io/_uploads/SynmWjP-fg.png)
+
+  ![image](_assets/BJ_fbjwbGl.png)
+
+  ![image](_assets/SynmWjP-fg.png)
 
 * 惡意.so檔 -> shell
-![image](https://hackmd.io/_uploads/r1mdZswZfe.png)
-![image](https://hackmd.io/_uploads/BJa_-oPZGx.png)
-![image](https://hackmd.io/_uploads/B1qK-iP-fx.png)
-![image](https://hackmd.io/_uploads/H189ZjDWMx.png)
-![image](https://hackmd.io/_uploads/ry53WsPWfl.png)
-![image](https://hackmd.io/_uploads/r14RWoD-Gl.png)
-![image](https://hackmd.io/_uploads/Hkek4svWGl.png)
-![image](https://hackmd.io/_uploads/S13lVsDWzg.png)
+
+  ![image](_assets/r1mdZswZfe.png)
+
+  ![image](_assets/BJa_-oPZGx.png)
+
+  ![image](_assets/B1qK-iP-fx.png)
+
+  ![image](_assets/H189ZjDWMx.png)
+
+  ![image](_assets/ry53WsPWfl.png)
+
+  ![image](_assets/r14RWoD-Gl.png)
+
+  ![image](_assets/Hkek4svWGl.png)
+
+  ![image](_assets/S13lVsDWzg.png)
 
 ## REF
 https://medium.com/@ryanchamruiyang/sql-injection-inside-after-enumerating-the-zm-06785352221d

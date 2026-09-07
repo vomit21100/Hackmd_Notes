@@ -31,36 +31,62 @@ PORT      STATE  SERVICE REASON         VERSION
 ```
 
 ## 80 HTTP
-![image](https://hackmd.io/_uploads/ByODRFwTZx.png)
-![image](https://hackmd.io/_uploads/SyNmjanabl.png)
-![image](https://hackmd.io/_uploads/H1ocxR3pbe.png)
-![image](https://hackmd.io/_uploads/SkZVfC2abl.png)
-![image](https://hackmd.io/_uploads/B1GeE02TZe.png)
-![image](https://hackmd.io/_uploads/H1M44Rnabx.png)
-![image](https://hackmd.io/_uploads/Bybm4C3Tbx.png)
-![image](https://hackmd.io/_uploads/BkLH40npbe.png)
-![image](https://hackmd.io/_uploads/BkEccC2pbe.png)
-![image](https://hackmd.io/_uploads/SJMBsR2T-g.png)
-![image](https://hackmd.io/_uploads/SyxLiR2Tbg.png)
-![image](https://hackmd.io/_uploads/r1YI3Chpbx.png)
+
+![image](_assets/ByODRFwTZx.png)
+
+![image](_assets/SyNmjanabl.png)
+
+![image](_assets/H1ocxR3pbe.png)
+
+![image](_assets/SkZVfC2abl.png)
+
+![image](_assets/B1GeE02TZe.png)
+
+![image](_assets/H1M44Rnabx.png)
+
+![image](_assets/Bybm4C3Tbx.png)
+
+![image](_assets/BkLH40npbe.png)
+
+![image](_assets/BkEccC2pbe.png)
+
+![image](_assets/SJMBsR2T-g.png)
+
+![image](_assets/SyxLiR2Tbg.png)
+
+![image](_assets/r1YI3Chpbx.png)
+
 `http://192.168.196.231/?cwd=../../../../../../../../../../../../../../../etc&file=shadow&download=true`
-![image](https://hackmd.io/_uploads/HJfsiRn6Zg.png)
-![image](https://hackmd.io/_uploads/Hkx33Rn6-l.png)
-![image](https://hackmd.io/_uploads/SJyM602abe.png)
-![image](https://hackmd.io/_uploads/HyDQp0hpWe.png)
-![image](https://hackmd.io/_uploads/S1iUaAnTZl.png)
-![image](https://hackmd.io/_uploads/S1BcWkaT-e.png)
-![image](https://hackmd.io/_uploads/Sy_gfJ66Zl.png)
-![image](https://hackmd.io/_uploads/S1yX7ka6Wg.png)
-![image](https://hackmd.io/_uploads/Hk-_Q1aTZe.png)
+
+![image](_assets/HJfsiRn6Zg.png)
+
+![image](_assets/Hkx33Rn6-l.png)
+
+![image](_assets/SJyM602abe.png)
+
+![image](_assets/HyDQp0hpWe.png)
+
+![image](_assets/S1iUaAnTZl.png)
+
+![image](_assets/S1BcWkaT-e.png)
+
+![image](_assets/Sy_gfJ66Zl.png)
+
+![image](_assets/S1yX7ka6Wg.png)
+
+![image](_assets/Hk-_Q1aTZe.png)
 
 ## 33017 HTTP
-![image](https://hackmd.io/_uploads/ByDtkcv6Zx.png)
-![image](https://hackmd.io/_uploads/S1jd19DT-x.png)
+
+![image](_assets/ByDtkcv6Zx.png)
+
+![image](_assets/S1jd19DT-x.png)
 
 ## Privilege Escalation
-![image](https://hackmd.io/_uploads/SkQQw16Tbe.png)
-![image](https://hackmd.io/_uploads/Sy3PPyapbe.png)
+
+![image](_assets/SkQQw16Tbe.png)
+
+![image](_assets/Sy3PPyapbe.png)
 
 ## REF
 https://medium.com/@raj.patel33605/boolean-offsec-proving-groundswriteup-8f626bbb1b3f

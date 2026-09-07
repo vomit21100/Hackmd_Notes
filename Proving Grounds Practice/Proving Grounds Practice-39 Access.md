@@ -1,26 +1,43 @@
 ## NMAP
-![image](https://hackmd.io/_uploads/ryf3egTpbe.png)
+
+![image](_assets/ryf3egTpbe.png)
 
 ## 80 HTTP
-![image](https://hackmd.io/_uploads/BJpgkeaTbg.png)
-![image](https://hackmd.io/_uploads/SyalllT6Wl.png)
-![image](https://hackmd.io/_uploads/SJdQ4x6TWe.png)
+
+![image](_assets/BJpgkeaTbg.png)
+
+![image](_assets/SyalllT6Wl.png)
+
+![image](_assets/SJdQ4x6TWe.png)
+
 `rev.php`
-![image](https://hackmd.io/_uploads/ryzq4g66bx.png)
-![image](https://hackmd.io/_uploads/r186UxTpZl.png)
-![image](https://hackmd.io/_uploads/HkV5OxaTZg.png)
-![image](https://hackmd.io/_uploads/S1wROlTT-g.png)
-![image](https://hackmd.io/_uploads/SJjJYgpTWg.png)
+
+![image](_assets/ryzq4g66bx.png)
+
+![image](_assets/r186UxTpZl.png)
+
+![image](_assets/HkV5OxaTZg.png)
+
+![image](_assets/S1wROlTT-g.png)
+
+![image](_assets/SJjJYgpTWg.png)
 
 
 ## Privilege Escalation
-![image](https://hackmd.io/_uploads/S1Wwb-TaWg.png)
-![image](https://hackmd.io/_uploads/ryZqKG8R-e.png)
-![image](https://hackmd.io/_uploads/SkTjqGIAbe.png)
-![image](https://hackmd.io/_uploads/S1zDsz8RZe.png)
-![image](https://hackmd.io/_uploads/BJ5H1XI0Zl.png)
-![image](https://hackmd.io/_uploads/H15dyXLCZe.png)
-![image](https://hackmd.io/_uploads/H1IgmmUCZe.png)
+
+![image](_assets/S1Wwb-TaWg.png)
+
+![image](_assets/ryZqKG8R-e.png)
+
+![image](_assets/SkTjqGIAbe.png)
+
+![image](_assets/S1zDsz8RZe.png)
+
+![image](_assets/BJ5H1XI0Zl.png)
+
+![image](_assets/H15dyXLCZe.png)
+
+![image](_assets/H1IgmmUCZe.png)
 
 ## REF
 https://banua.medium.com/proving-grounds-access-oscp-prep-2025-practice-7-557f902bf1a9

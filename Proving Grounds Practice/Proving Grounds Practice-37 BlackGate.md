@@ -14,20 +14,32 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ```
 
 ## 6379 redis
-![image](https://hackmd.io/_uploads/ryRNdrIT-x.png)
-![image](https://hackmd.io/_uploads/SJVLuS86Wx.png)
+
+![image](_assets/ryRNdrIT-x.png)
+
+![image](_assets/SJVLuS86Wx.png)
 
 ## Privilege Escalation
-![image](https://hackmd.io/_uploads/HkUk9S8TZx.png)
-![image](https://hackmd.io/_uploads/HkOOcrL6bx.png)
-![image](https://hackmd.io/_uploads/HycRorITZl.png)
-![image](https://hackmd.io/_uploads/Hkmx2rU6Ze.png)
-![image](https://hackmd.io/_uploads/S1I1QLU6We.png)
-![image](https://hackmd.io/_uploads/B1LlmI8Tbl.png)
-![image](https://hackmd.io/_uploads/S1UrmLL6-l.png)
-![image](https://hackmd.io/_uploads/H1-UXU8p-e.png)
-![image](https://hackmd.io/_uploads/By5rELIpZx.png)
-![image](https://hackmd.io/_uploads/ry-RV88pWx.png)
+
+![image](_assets/HkUk9S8TZx.png)
+
+![image](_assets/HkOOcrL6bx.png)
+
+![image](_assets/HycRorITZl.png)
+
+![image](_assets/Hkmx2rU6Ze.png)
+
+![image](_assets/S1I1QLU6We.png)
+
+![image](_assets/B1LlmI8Tbl.png)
+
+![image](_assets/S1UrmLL6-l.png)
+
+![image](_assets/H1-UXU8p-e.png)
+
+![image](_assets/By5rELIpZx.png)
+
+![image](_assets/ry-RV88pWx.png)
 
 ## REF
 https://medium.com/@gleasonbrian/offsec-proving-grounds-blackgate-writeup-49920d4188de

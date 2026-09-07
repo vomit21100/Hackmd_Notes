@@ -39,40 +39,61 @@ Service Info: Host: HUTCHDC; OS: Windows; CPE: cpe:/o:microsoft:windows
 ```
 
 ## 389 LDAP
-![image](https://hackmd.io/_uploads/BJC-0hjnbx.png)
-![image](https://hackmd.io/_uploads/SJGV03ohWl.png)
-![image](https://hackmd.io/_uploads/H1c_Rnshbg.png)
-![image](https://hackmd.io/_uploads/rJTHk6s2-g.png)
-![image](https://hackmd.io/_uploads/BJz1eTj2Zg.png)
+
+![image](_assets/BJC-0hjnbx.png)
+
+![image](_assets/SJGV03ohWl.png)
+
+![image](_assets/H1c_Rnshbg.png)
+
+![image](_assets/rJTHk6s2-g.png)
+
+![image](_assets/BJz1eTj2Zg.png)
 
 ## 445 SMB
-![image](https://hackmd.io/_uploads/BJbAlas2Ze.png)
+
+![image](_assets/BJbAlas2Ze.png)
 
 ## WINRM
-![image](https://hackmd.io/_uploads/ryrKZ6onbg.png)
+
+![image](_assets/ryrKZ6onbg.png)
 
 ## pyLAPS
-![image](https://hackmd.io/_uploads/Sy-xEpshbl.png)
-![image](https://hackmd.io/_uploads/HyZHIas3-g.png)
-![image](https://hackmd.io/_uploads/HJrJdaohZx.png)
+
+![image](_assets/Sy-xEpshbl.png)
+
+![image](_assets/HyZHIas3-g.png)
+
+![image](_assets/HJrJdaohZx.png)
 
 ## 80 HTTP
-![image](https://hackmd.io/_uploads/BymVupo2Wg.png)
-![image](https://hackmd.io/_uploads/ryKju6in-g.png)
-![image](https://hackmd.io/_uploads/BJStYajnbl.png)
-![image](https://hackmd.io/_uploads/HJ2wcpoh-l.png)
+
+![image](_assets/BymVupo2Wg.png)
+
+![image](_assets/ryKju6in-g.png)
+
+![image](_assets/BJStYajnbl.png)
+
+![image](_assets/HJ2wcpoh-l.png)
+
 https://github.com/xl7dev/WebShell/blob/master/Aspx/ASPX%20Shell.aspx
-![image](https://hackmd.io/_uploads/BkHt5Ts3bx.png)
-![image](https://hackmd.io/_uploads/SJZjcTj2-l.png)
-![image](https://hackmd.io/_uploads/BJRSsai2Ze.png)
+
+![image](_assets/BkHt5Ts3bx.png)
+
+![image](_assets/SJZjcTj2-l.png)
+
+![image](_assets/BJRSsai2Ze.png)
 
 ## Privilege Escalation
 1. SeImpersonatePrivilege
-![image](https://hackmd.io/_uploads/BJ1M2po2Wg.png)
+
+   ![image](_assets/BJ1M2po2Wg.png)
 
 2. LAPS
-![image](https://hackmd.io/_uploads/S1Wo3Ts3Wg.png)
-![image](https://hackmd.io/_uploads/SyhXJRs2bg.png)
+
+   ![image](_assets/S1Wo3Ts3Wg.png)
+
+   ![image](_assets/SyhXJRs2bg.png)
 
 
 ## REF

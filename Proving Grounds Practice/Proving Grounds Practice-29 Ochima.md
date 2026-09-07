@@ -24,34 +24,50 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ```
 
 ## 80 HTTP
-![image](https://hackmd.io/_uploads/r1HbKi-nZl.png)
+
+![image](_assets/r1HbKi-nZl.png)
 
 ## 8338 HTTP
-![image](https://hackmd.io/_uploads/ByU7Kj-2Wg.png)
-![image](https://hackmd.io/_uploads/HJM5tjW3Zl.png)
-![image](https://hackmd.io/_uploads/SJzntibnWx.png)
-![image](https://hackmd.io/_uploads/ryW19jb3-x.png)
-![image](https://hackmd.io/_uploads/HJwxco-nZe.png)
+
+![image](_assets/ByU7Kj-2Wg.png)
+
+![image](_assets/HJM5tjW3Zl.png)
+
+![image](_assets/SJzntibnWx.png)
+
+![image](_assets/ryW19jb3-x.png)
+
+![image](_assets/HJwxco-nZe.png)
 
 * cve
 https://github.com/joshchalabi/Maltrail-0.52-Exploit-RCE
-![image](https://hackmd.io/_uploads/BJRX5sW2Zg.png)
-![image](https://hackmd.io/_uploads/rke0O9jZ3bl.png)
-![image](https://hackmd.io/_uploads/HJ9Y9iWnbl.png)
+
+  ![image](_assets/BJRX5sW2Zg.png)
+
+  ![image](_assets/rke0O9jZ3bl.png)
+
+  ![image](_assets/HJ9Y9iWnbl.png)
 
 
 ## Privilege Escalation
 1. possible password
-![image](https://hackmd.io/_uploads/SyOu3jbn-l.png)
-![image](https://hackmd.io/_uploads/By6Y3j-hZl.png)
+
+   ![image](_assets/SyOu3jbn-l.png)
+
+   ![image](_assets/By6Y3j-hZl.png)
 
 2. sus file
 `/var/backups/etc_Backup.sh`
-![image](https://hackmd.io/_uploads/ry9pRj-3Zl.png)
-![image](https://hackmd.io/_uploads/rkjRAobh-e.png)
-![image](https://hackmd.io/_uploads/BJR1knWnWg.png)
+
+   ![image](_assets/ry9pRj-3Zl.png)
+
+   ![image](_assets/rkjRAobh-e.png)
+
+   ![image](_assets/BJR1knWnWg.png)
+
 沒反應
 
 3. /var/backups/etc_Backup.sh(again)
 測試後只有22、80、8338可以用於反連
-![image](https://hackmd.io/_uploads/r1mA-2bnZe.png)
+
+   ![image](_assets/r1mA-2bnZe.png)

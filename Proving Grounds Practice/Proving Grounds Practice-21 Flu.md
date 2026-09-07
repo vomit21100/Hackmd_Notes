@@ -61,40 +61,62 @@ PORT     STATE SERVICE  REASON         VERSION
 
 ## 8090 HTTP
 `http://192.168.159.41:8090` -> `http://192.168.159.41:8090/login.action?os_destination=%2Findex.action&permissionViolation=true`
-![image](https://hackmd.io/_uploads/BkzBwFrjbg.png)
-![image](https://hackmd.io/_uploads/rk7NOFBsbe.png)
-![image](https://hackmd.io/_uploads/BJ8tOtHsZx.png)
+
+![image](_assets/BkzBwFrjbg.png)
+
+![image](_assets/rk7NOFBsbe.png)
+
+![image](_assets/BJ8tOtHsZx.png)
+
 https://github.com/jbaines-r7/through_the_wire
-![image](https://hackmd.io/_uploads/HkxBtFHsbg.png)
-![image](https://hackmd.io/_uploads/r1sSKKriZe.png)
-![image](https://hackmd.io/_uploads/Syf7tFrsWx.png)
+
+![image](_assets/HkxBtFHsbg.png)
+
+![image](_assets/r1sSKKriZe.png)
+
+![image](_assets/Syf7tFrsWx.png)
 
 
 ## Privilege Escalation
 1. backup 
-![image](https://hackmd.io/_uploads/r1rqecBoZg.png)
-![image](https://hackmd.io/_uploads/H1ZDlcSjZl.png)
-![image](https://hackmd.io/_uploads/S1mplqSiZg.png)
-![image](https://hackmd.io/_uploads/Hk8O-5HjZg.png)
-![image](https://hackmd.io/_uploads/rk28ZqrjWe.png)
+
+   ![image](_assets/r1rqecBoZg.png)
+
+   ![image](_assets/H1ZDlcSjZl.png)
+
+   ![image](_assets/S1mplqSiZg.png)
+
+   ![image](_assets/Hk8O-5HjZg.png)
+
+   ![image](_assets/rk28ZqrjWe.png)
 
 2. crack password
-![image](https://hackmd.io/_uploads/SyNmM9Hjbx.png)
+
+   ![image](_assets/SyNmM9Hjbx.png)
 
 3. ssh private key
 No `.ssh` folder in current user's home, so assume key was for root
-![image](https://hackmd.io/_uploads/HJm4NcSsZx.png)
-![image](https://hackmd.io/_uploads/rk4585Bsbe.png)
+
+   ![image](_assets/HJm4NcSsZx.png)
+
+   ![image](_assets/rk4585Bsbe.png)
 
 4. Tar Wildcard injection
-![image](https://hackmd.io/_uploads/Hy4Kw9HoZx.png)
-![image](https://hackmd.io/_uploads/HkJB3qrjbg.png)
-![image](https://hackmd.io/_uploads/Bkhy6crsWl.png)
-![image](https://hackmd.io/_uploads/H1MexjBjWe.png)
+
+   ![image](_assets/Hy4Kw9HoZx.png)
+
+   ![image](_assets/HkJB3qrjbg.png)
+
+   ![image](_assets/Bkhy6crsWl.png)
+
+   ![image](_assets/H1MexjBjWe.png)
 
 5. /opt/log-backup.sh
 Edit `/opt/log-backup.sh`
-![image](https://hackmd.io/_uploads/HkC4xjBobg.png)
-![image](https://hackmd.io/_uploads/rJavlorj-g.png)
-![image](https://hackmd.io/_uploads/HJcqeorjZx.png)
+
+   ![image](_assets/HkC4xjBobg.png)
+
+   ![image](_assets/rJavlorj-g.png)
+
+   ![image](_assets/HJcqeorjZx.png)
 

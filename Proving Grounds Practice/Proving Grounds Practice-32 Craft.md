@@ -10,21 +10,34 @@ PORT   STATE SERVICE REASON          VERSION
 ```
 
 ## 80 HTTP
-![image](https://hackmd.io/_uploads/SkCW4_XnWx.png)
-![image](https://hackmd.io/_uploads/r1bwVd73Zl.png)
-![image](https://hackmd.io/_uploads/rkidVuXhZl.png)
-![image](https://hackmd.io/_uploads/B1Mzr_mhbl.png)
-![image](https://hackmd.io/_uploads/BJkwSOXnbx.png)
+
+![image](_assets/SkCW4_XnWx.png)
+
+![image](_assets/r1bwVd73Zl.png)
+
+![image](_assets/rkidVuXhZl.png)
+
+![image](_assets/B1Mzr_mhbl.png)
+
+![image](_assets/BJkwSOXnbx.png)
 
 - odt reverse shell
 https://medium.com/@akshay__0/initial-access-via-malicious-odt-macro-ac7f5d15796d
-![image](https://hackmd.io/_uploads/Skboodm2Ze.png)
-![image](https://hackmd.io/_uploads/HJb8xY73Zx.png)
+
+  ![image](_assets/Skboodm2Ze.png)
+
+  ![image](_assets/HJb8xY73Zx.png)
 
 ## Privilege Escalation
-![image](https://hackmd.io/_uploads/Hy0umYQ2Wx.png)
-![image](https://hackmd.io/_uploads/ryx_NEYQhbe.png)
-![image](https://hackmd.io/_uploads/HJj8NFm3be.png)
-![image](https://hackmd.io/_uploads/Skvo9tm2bl.png)
-![image](https://hackmd.io/_uploads/S18xiKXh-g.png)
-![image](https://hackmd.io/_uploads/H1SfoKQnWg.png)
+
+![image](_assets/Hy0umYQ2Wx.png)
+
+![image](_assets/ryx_NEYQhbe.png)
+
+![image](_assets/HJj8NFm3be.png)
+
+![image](_assets/Skvo9tm2bl.png)
+
+![image](_assets/S18xiKXh-g.png)
+
+![image](_assets/H1SfoKQnWg.png)

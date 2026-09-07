@@ -16,18 +16,29 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ```
 
 ## 3000 HTTP
-![image](https://hackmd.io/_uploads/SJRvXMNoZg.png)
-![image](https://hackmd.io/_uploads/SyEALMEo-x.png)
+
+![image](_assets/SJRvXMNoZg.png)
+
+![image](_assets/SyEALMEo-x.png)
+
 Test with `https://gtfobins.org/`, 
-![image](https://hackmd.io/_uploads/HJn_VfEjZe.png)
-![image](https://hackmd.io/_uploads/S1uZozViZe.png)
+
+![image](_assets/HJn_VfEjZe.png)
+
+![image](_assets/S1uZozViZe.png)
+
 `https://github.com/UNICORDev/exploit-CVE-2022-25765`
-![image](https://hackmd.io/_uploads/BJd1ozVobe.png)
-![image](https://hackmd.io/_uploads/ByDgCMEi-g.png)
-![image](https://hackmd.io/_uploads/HJ4KCGVibe.png)
+
+![image](_assets/BJd1ozVobe.png)
+
+![image](_assets/ByDgCMEi-g.png)
+
+![image](_assets/HJ4KCGVibe.png)
 
 ## Privilege Escalation
 1. sudo
-![image](https://hackmd.io/_uploads/BJVtJmNjZx.png)
-![image](https://hackmd.io/_uploads/BkHP7QVsWl.png)
+
+   ![image](_assets/BJVtJmNjZx.png)
+
+   ![image](_assets/BkHP7QVsWl.png)
 

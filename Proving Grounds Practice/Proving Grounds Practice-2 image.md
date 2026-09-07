@@ -1,39 +1,55 @@
 https://portal.offsec.com/machine/image-52183/overview
 
 ## Introduce
-![image](https://hackmd.io/_uploads/SyC5r9Dvxl.png)
+
+![image](_assets/SyC5r9Dvxl.png)
 
 ## Reconnaissance
 * nmap
-![image](https://hackmd.io/_uploads/HkrcL5vvlg.png)
+
+  ![image](_assets/HkrcL5vvlg.png)
 
 * web
-![image](https://hackmd.io/_uploads/Bkb2L5Pwge.png)
-![image](https://hackmd.io/_uploads/ryLUDqvwlg.png)
+
+  ![image](_assets/Bkb2L5Pwge.png)
+
+  ![image](_assets/ryLUDqvwlg.png)
 
 ## Search Vulnerabilities
 * ImageMagick 6.9.6
-![image](https://hackmd.io/_uploads/r1pcP5vPgx.png)
+
+  ![image](_assets/r1pcP5vPgx.png)
 
 ## Exploit
-![image](https://hackmd.io/_uploads/SkKMFcvPle.png)
-![image](https://hackmd.io/_uploads/ryI7KqwDle.png)
-![image](https://hackmd.io/_uploads/H1EDYqDDeg.png)
+
+![image](_assets/SkKMFcvPle.png)
+
+![image](_assets/ryI7KqwDle.png)
+
+![image](_assets/H1EDYqDDeg.png)
 
 ## Privilege Escalation
 * sudo -l
-![image](https://hackmd.io/_uploads/rJwBqcDwle.png)
+
+  ![image](_assets/rJwBqcDwle.png)
 
 * SUID
-![image](https://hackmd.io/_uploads/r1IuccDwlx.png)
-![image](https://hackmd.io/_uploads/HJV4i9wweg.png)
-![image](https://hackmd.io/_uploads/Hk4Ho9Pwxx.png)
-![image](https://hackmd.io/_uploads/HJROi9PDee.png)
+
+  ![image](_assets/r1IuccDwlx.png)
+
+  ![image](_assets/HJV4i9wweg.png)
+
+  ![image](_assets/Hk4Ho9Pwxx.png)
+
+  ![image](_assets/HJROi9PDee.png)
 
 ## Get Flag
 * root
-![image](https://hackmd.io/_uploads/B1i6s9DDxe.png)
+
+  ![image](_assets/B1i6s9DDxe.png)
 
 * var/www
-![image](https://hackmd.io/_uploads/r1Iqn9vDeg.png)
-![image](https://hackmd.io/_uploads/HkBn2cPvxe.png)
+
+  ![image](_assets/r1Iqn9vDeg.png)
+
+  ![image](_assets/HkBn2cPvxe.png)

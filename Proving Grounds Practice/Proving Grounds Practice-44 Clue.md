@@ -1,28 +1,45 @@
 ## NMAP
-![image](https://hackmd.io/_uploads/rkhXEmXgGe.png)
+
+![image](_assets/rkhXEmXgGe.png)
 
 ## 445 SMB
-![image](https://hackmd.io/_uploads/H15zIX7gfe.png)
-![image](https://hackmd.io/_uploads/Bk6QUm7gzx.png)
+
+![image](_assets/H15zIX7gfe.png)
+
+![image](_assets/Bk6QUm7gzx.png)
 
 ## 3000 HTTP
-![image](https://hackmd.io/_uploads/H142dNXgMx.png)
-![image](https://hackmd.io/_uploads/Hkuo_EXgGl.png)
-![image](https://hackmd.io/_uploads/B1EpOEQgfe.png)
-![image](https://hackmd.io/_uploads/SJ0FFE7eMe.png)
-![image](https://hackmd.io/_uploads/BkI4Sv4eMl.png)
-![image](https://hackmd.io/_uploads/By_MLDVxze.png)
+
+![image](_assets/H142dNXgMx.png)
+
+![image](_assets/Hkuo_EXgGl.png)
+
+![image](_assets/B1EpOEQgfe.png)
+
+![image](_assets/SJ0FFE7eMe.png)
+
+![image](_assets/BkI4Sv4eMl.png)
+
+![image](_assets/By_MLDVxze.png)
+
 `SecondBiteTheApple330`
-![image](https://hackmd.io/_uploads/B1tGYP4lzl.png)
-![image](https://hackmd.io/_uploads/r1rrKD4efg.png)
+
+![image](_assets/B1tGYP4lzl.png)
+
+![image](_assets/r1rrKD4efg.png)
 
 
 ## Privilege Escalation
-![image](https://hackmd.io/_uploads/SkBNNK4gzl.png)
-![image](https://hackmd.io/_uploads/Bkd78FNezl.png)
-![image](https://hackmd.io/_uploads/BkWz4YElfl.png)
-![image](https://hackmd.io/_uploads/SJDPUKVgMe.png)
-![image](https://hackmd.io/_uploads/rJoBwYNxGg.png)
+
+![image](_assets/SkBNNK4gzl.png)
+
+![image](_assets/Bkd78FNezl.png)
+
+![image](_assets/BkWz4YElfl.png)
+
+![image](_assets/SJDPUKVgMe.png)
+
+![image](_assets/rJoBwYNxGg.png)
 
 ## REF
 https://medium.com/@johnniketas/proving-grounds-clue-b0e197d9be56

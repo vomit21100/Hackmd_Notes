@@ -22,21 +22,33 @@ Service Info: Host: 127.0.0.1; OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ```
 
 ## 80 HTTP
-![image](https://hackmd.io/_uploads/Bk6cMbB6-g.png)
-![image](https://hackmd.io/_uploads/H1-2fWH6bx.png)
-![image](https://hackmd.io/_uploads/rkGYefrp-e.png)
-![image](https://hackmd.io/_uploads/rJDHH-H6-g.png)
-![image](https://hackmd.io/_uploads/BkMISbrTbl.png)
-![image](https://hackmd.io/_uploads/B1aF1zHTbg.png)
-![image](https://hackmd.io/_uploads/SJiMxfBabl.png)
-![image](https://hackmd.io/_uploads/B1BXxGSp-g.png)
+
+![image](_assets/Bk6cMbB6-g.png)
+
+![image](_assets/H1-2fWH6bx.png)
+
+![image](_assets/rkGYefrp-e.png)
+
+![image](_assets/rJDHH-H6-g.png)
+
+![image](_assets/BkMISbrTbl.png)
+
+![image](_assets/B1aF1zHTbg.png)
+
+![image](_assets/SJiMxfBabl.png)
+
+![image](_assets/B1BXxGSp-g.png)
 
 
 ## Privilege Escalation
-![image](https://hackmd.io/_uploads/r19Pgmra-e.png)
-![image](https://hackmd.io/_uploads/BJE4JmBTZx.png)
-![image](https://hackmd.io/_uploads/r16Sy7BTWe.png)
-![image](https://hackmd.io/_uploads/BktBgQHTWg.png)
+
+![image](_assets/r19Pgmra-e.png)
+
+![image](_assets/BJE4JmBTZx.png)
+
+![image](_assets/r16Sy7BTWe.png)
+
+![image](_assets/BktBgQHTWg.png)
 
 ## REF
 https://medium.com/@ardian.danny/oscp-practice-series-20-proving-grounds-astronaut-627bc41a86ef
