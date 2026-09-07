@@ -421,7 +421,8 @@ john@oscp:~$
 ```
 
 * Privilege Escalation
-![image](_assets/SkJZO7s_Wx.png)
+
+  ![image](_assets/SkJZO7s_Wx.png)
 ```bash
 john@oscp:~$ echo $PATH
 /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/snap/bin

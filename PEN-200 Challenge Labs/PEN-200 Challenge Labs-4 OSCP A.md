@@ -306,7 +306,8 @@ Target: http://192.168.125.141:81/
     ```
     
 * Initial Credential
-![image](_assets/HJoVRZzvZg.png)
+
+  ![image](_assets/HJoVRZzvZg.png)
 
 
 
@@ -373,10 +374,14 @@ Running nxc against 256 targets ━━━━━━━━━━━━━━━━
 
 ## 192.168.x.143
 * 3003
-![image](_assets/SynllmC8-g.png)
-![image](_assets/H1Ik-X08bx.png)
-![image](_assets/BJLIZXC8Zx.png)
-![image](_assets/BkeH-QCLZx.png)
+
+  ![image](_assets/SynllmC8-g.png)
+
+  ![image](_assets/H1Ik-X08bx.png)
+
+  ![image](_assets/BJLIZXC8Zx.png)
+
+  ![image](_assets/BkeH-QCLZx.png)
     * CVE-2020-13151
     Failed for port 4444, guessing its been blocked, attempt to 80 port
     ```
@@ -725,7 +730,8 @@ chloe@oscp:/home/stuart$
 
 ## 192.168.x.145
 * unisql?
-![image](_assets/H1L14SR8-x.png)
+
+  ![image](_assets/H1L14SR8-x.png)
     1. Github
     ![image](_assets/HypamSA8Zg.png)
 

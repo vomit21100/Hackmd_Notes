@@ -6,15 +6,20 @@
 ## Nmap
 ### 外網
 * `192.168.x.120`
-![image](_assets/SybMR75ybx.png)
-![image](_assets/BJXgkE51-x.png)
+
+  ![image](_assets/SybMR75ybx.png)
+
+  ![image](_assets/BJXgkE51-x.png)
 
 * `192.168.x.121`
-![image](_assets/SyHuAX5JZg.png)
-![image](_assets/ry9CIr9yWe.png)
+
+  ![image](_assets/SyHuAX5JZg.png)
+
+  ![image](_assets/ry9CIr9yWe.png)
 
 * `192.168.x.122`
-![image](_assets/rkIn0Q91Ze.png)
+
+  ![image](_assets/rkIn0Q91Ze.png)
 
 ## 網頁
 * `192.168.x.120`
@@ -173,11 +178,14 @@ Add-LocalGroupMember -Group "Administrators" -Member "$username"
 
 ## nxc密碼噴灑
 * smb
-![image](_assets/SkVyvRxxWl.png)
-![image](_assets/ByDGnAeeWg.png)
+
+  ![image](_assets/SkVyvRxxWl.png)
+
+  ![image](_assets/ByDGnAeeWg.png)
 
 * winrm
-![image](_assets/HktOu0xg-l.png)
+
+  ![image](_assets/HktOu0xg-l.png)
 
 ## CLIENT01 RDP
 `impacket-psexec 'medtech.com/yoshi:Mushroom!'@172.16.172.82`

@@ -3,37 +3,56 @@
 
 ## Nmap(外網)
 * `192.168.x.189`
-![image](_assets/ByrvLhuxbl.png)
-![image](_assets/B1wrDF2bWl.png)
+
+  ![image](_assets/ByrvLhuxbl.png)
+
+  ![image](_assets/B1wrDF2bWl.png)
 
 * `192.168.x.191`
-![image](_assets/Skvs83_gbx.png)
-![image](_assets/Hyd3d2_xZl.png)
-![image](_assets/HycUwKhWbl.png)
+
+  ![image](_assets/Skvs83_gbx.png)
+
+  ![image](_assets/Hyd3d2_xZl.png)
+
+  ![image](_assets/HycUwKhWbl.png)
 
 * `192.168.x.245`
-![image](_assets/SyITU2_xZg.png)
-![image](_assets/S1S5w3ugWx.png)
-![image](_assets/SyoD9nugZg.png)
+
+  ![image](_assets/SyITU2_xZg.png)
+
+  ![image](_assets/S1S5w3ugWx.png)
+
+  ![image](_assets/SyoD9nugZg.png)
 
 * `192.168.x.246`
-![image](_assets/HJiRL3dgbx.png)
-![image](_assets/BkuAwnuebe.png)
+
+  ![image](_assets/HJiRL3dgbx.png)
+
+  ![image](_assets/BkuAwnuebe.png)
 
 * `192.168.x.247`
-![image](_assets/HkzlDnOgZl.png)
-![image](_assets/Sk1l_hOlZx.png)
-![image](_assets/Sy1_Ptn-bg.png)
+
+  ![image](_assets/HkzlDnOgZl.png)
+
+  ![image](_assets/Sk1l_hOlZx.png)
+
+  ![image](_assets/Sy1_Ptn-bg.png)
 
 * `192.168.x.248`
-![image](_assets/r1Sbw3_xZl.png)
-![image](_assets/SJB-dhug-g.png)
-![image](_assets/BkktPF2b-x.png)
+
+  ![image](_assets/r1Sbw3_xZl.png)
+
+  ![image](_assets/SJB-dhug-g.png)
+
+  ![image](_assets/BkktPF2b-x.png)
 
 * `192.168.x.249`
-![image](_assets/BkjGPhuxbe.png)
-![image](_assets/SyPGu3dlWx.png)
-![image](_assets/r1ecwYnZZx.png)
+
+  ![image](_assets/BkjGPhuxbe.png)
+
+  ![image](_assets/SyPGu3dlWx.png)
+
+  ![image](_assets/r1ecwYnZZx.png)
 
 ## SMB匿名登入
 `while IFS= read -r host; do echo $host;smbclient -N -L //$host/;echo "\n" ;done < outerHosts.txt`
@@ -75,20 +94,26 @@ Running nxc against 256 targets ━━━━━━━━━━━━━━━━
 ![image](_assets/BJNvRjuWZg.png)
 
 * `ssh login`
-![image](_assets/rJ-a13_bWg.png)
-![image](_assets/ByKJlh_-bl.png)
+
+  ![image](_assets/rJ-a13_bWg.png)
+
+  ![image](_assets/ByKJlh_-bl.png)
 
 * `Privilege escalation`
-![image](_assets/BkX_DQobWl.png)
-![image](_assets/BJGZOQiWWx.png)
-![image](_assets/BJLfomjZbg.png)
+
+  ![image](_assets/BkX_DQobWl.png)
+
+  ![image](_assets/BJGZOQiWWx.png)
+
+  ![image](_assets/BJLfomjZbg.png)
 
 ## 192.168.x.246
 ![image](_assets/BJLBOabzZl.png)
 ![image](_assets/B1Ye9p-zbl.png)
 
 * `ssh`
-![image](_assets/BJgr6I4zbx.png)
+
+  ![image](_assets/BJgr6I4zbx.png)
 
 * `Privilege escalation`
     1. `sudo version`
@@ -108,10 +133,14 @@ Running nxc against 256 targets ━━━━━━━━━━━━━━━━
     ![image](_assets/rJIfAuVM-x.png)
 
 * `8000 port`
-![image](_assets/SJUTet4G-g.png)
-![image](_assets/HJXIbF4GZx.png)
-![image](_assets/BypVMKNf-x.png)
-![image](_assets/BJqlEt4zWe.png)
+
+  ![image](_assets/SJUTet4G-g.png)
+
+  ![image](_assets/HJXIbF4GZx.png)
+
+  ![image](_assets/BypVMKNf-x.png)
+
+  ![image](_assets/BJqlEt4zWe.png)
 
     1. `Writable Directory for Anita`
     ![image](_assets/Ske58nBGZx.png)
@@ -119,51 +148,81 @@ Running nxc against 256 targets ━━━━━━━━━━━━━━━━
     ![image](_assets/HkrlunBM-e.png)
 
 * `Privilege escalation(Again)`
-![image](_assets/SkOLinBM-x.png)
-![image](_assets/ByC_o2SG-x.png)
+
+  ![image](_assets/SkOLinBM-x.png)
+
+  ![image](_assets/ByC_o2SG-x.png)
 
 ## 192.168.x.247
 * 80 Port
-![image](_assets/rywvuKhbbg.png)
-![image](_assets/rJVO_FnbZx.png)
-![image](_assets/ryCqOF3bWe.png)
-![image](_assets/Bknj_F3b-x.png)
-![image](_assets/r1g-YKnWbe.png)
-![image](_assets/SkzIW52Zbx.png)
+
+  ![image](_assets/rywvuKhbbg.png)
+
+  ![image](_assets/rJVO_FnbZx.png)
+
+  ![image](_assets/ryCqOF3bWe.png)
+
+  ![image](_assets/Bknj_F3b-x.png)
+
+  ![image](_assets/r1g-YKnWbe.png)
+
+  ![image](_assets/SkzIW52Zbx.png)
 
 * 14020 Port
-![image](_assets/SkGtc53--x.png)
-![image](_assets/H1krpc2WZx.png)
-![image](_assets/SJdv092-We.png)
-![image](_assets/rk7UC93-We.png)
-![image](_assets/HJijA92ZZg.png)
+
+  ![image](_assets/SkGtc53--x.png)
+
+  ![image](_assets/H1krpc2WZx.png)
+
+  ![image](_assets/SJdv092-We.png)
+
+  ![image](_assets/rk7UC93-We.png)
+
+  ![image](_assets/HJijA92ZZg.png)
 
 * 14080
-![image](_assets/BkIpsf1Gbg.png)
-![image](_assets/BkmiFz1Mbg.png)
-![image](_assets/HkfJhMyG-e.png)
-![image](_assets/rkwl3Mkfbg.png)
-![image](_assets/rJOqpGyzWe.png)
+
+  ![image](_assets/BkIpsf1Gbg.png)
+
+  ![image](_assets/BkmiFz1Mbg.png)
+
+  ![image](_assets/HkfJhMyG-e.png)
+
+  ![image](_assets/rkwl3Mkfbg.png)
+
+  ![image](_assets/rJOqpGyzWe.png)
 
     * file upload(Failed)
-    ![image](_assets/HJnab7Jf-l.png)
-    ![image](_assets/HJ1KBQJGZx.png)
-    ![image](_assets/H13lUQkfbl.png)
+
+      ![image](_assets/HJnab7Jf-l.png)
+
+      ![image](_assets/HJ1KBQJGZx.png)
+
+      ![image](_assets/H13lUQkfbl.png)
     
     * Version
-    ![image](_assets/SkjKXV1GWe.png)
-    ![image](_assets/Byo67VyGZx.png)
-    ![image](_assets/rJCnV41zWe.png)
+
+      ![image](_assets/SkjKXV1GWe.png)
+
+      ![image](_assets/Byo67VyGZx.png)
+
+      ![image](_assets/rJCnV41zWe.png)
 
     * RCE
-    ![image](_assets/r1_HP4Jz-g.png)
-    ![image](_assets/S1f4DEkM-e.png)
-    ![image](_assets/r1GuuE1MZg.png)
+
+      ![image](_assets/r1_HP4Jz-g.png)
+
+      ![image](_assets/S1f4DEkM-e.png)
+
+      ![image](_assets/r1GuuE1MZg.png)
 
 * Privilege escalation
-![image](_assets/ryI6d4yGbl.png)
-![image](_assets/ryjtjNJzWx.png)
-![image](_assets/HyxooE1zbg.png)
+
+  ![image](_assets/ryI6d4yGbl.png)
+
+  ![image](_assets/ryjtjNJzWx.png)
+
+  ![image](_assets/HyxooE1zbg.png)
 
 ## 192.168.x.248
 
@@ -194,19 +253,24 @@ Running nxc against 256 targets ━━━━━━━━━━━━━━━━
 
 2. 灑密碼
     * `smb`
-    ![image](_assets/rkABRgzZbx.png)
+
+      ![image](_assets/rkABRgzZbx.png)
 
     * `ssh`
-    ![image](_assets/H17k1WfZWx.png)
+
+      ![image](_assets/H17k1WfZWx.png)
 
     * `ftp`
-    ![image](_assets/rympJWGWbg.png)
+
+      ![image](_assets/rympJWGWbg.png)
 
     * `winrm`
-    ![image](_assets/By_fgWfbbg.png)
+
+      ![image](_assets/By_fgWfbbg.png)
 
     * `rdp`
-    ![image](_assets/HJuZJrjWWg.png)
+
+      ![image](_assets/HJuZJrjWWg.png)
 
 3. rdp
 `xfreerdp3 /u:emma /p:SomersetVinyl1! /v:192.168.220.248 /dynamic-resolution`
@@ -233,9 +297,12 @@ Running nxc against 256 targets ━━━━━━━━━━━━━━━━
 
 ## 192.168.x.249
 * `8000 port`
-![image](_assets/Hyo-XTrG-g.png)
-![image](_assets/HkeLC-OmZg.png)
-![image](_assets/SyTeXarfZx.png)
+
+  ![image](_assets/Hyo-XTrG-g.png)
+
+  ![image](_assets/HkeLC-OmZg.png)
+
+  ![image](_assets/SyTeXarfZx.png)
     1. `Default Password`
     `admin` & `admin`
     ![image](_assets/S1EgaTHGZx.png)
@@ -252,10 +319,14 @@ Running nxc against 256 targets ━━━━━━━━━━━━━━━━
     ![image](_assets/HkhBN0SzWg.png)
 
 * `Privilege Escalation`
-![image](_assets/S1HQ4CSfZe.png)
-![image](_assets/HJa_H0Bfbe.png)
-![image](_assets/HJuhlQ_mWl.png)
-![image](_assets/rJZ0x7Om-l.png)
+
+  ![image](_assets/S1HQ4CSfZe.png)
+
+  ![image](_assets/HJa_H0Bfbe.png)
+
+  ![image](_assets/HJuhlQ_mWl.png)
+
+  ![image](_assets/rJZ0x7Om-l.png)
 
 * `credentials dumps`
 `maildmz@relia.com:DPuBT9tGCBrTbR`&`jim@relia.com`
@@ -506,8 +577,10 @@ Nmap done: 7 IP addresses (7 hosts up) scanned in 202.71 seconds
 
 ## 172.16.x.7
 * 80 port
-![image](_assets/rJGbxO8SZl.png)
-![image](_assets/rk_ExOUH-l.png)
+
+  ![image](_assets/rJGbxO8SZl.png)
+
+  ![image](_assets/rk_ExOUH-l.png)
     * wpscan
     ```
     [+] WordPress version 6.0.3 identified (Insecure, released on 2022-10-17).
@@ -582,7 +655,8 @@ The command completed successfully.
 ![image](_assets/S1Q1SHYr-x.png)
 
 * Cred search
-![image](_assets/ByscLHKSbe.png)
+
+  ![image](_assets/ByscLHKSbe.png)
 ```
 ┌──(kali㉿kali)-[~/Desktop/Pen200/Relia]
 └─$ nxc rdp 172.16.158.0/24 -u andrea -p PasswordPassword_6 
@@ -766,15 +840,22 @@ using password found 172.16.x.21 smb share
 
 * Privilege escalation
     * system os exploit(need visual studio)
-    ![image](_assets/BypFJIYBZe.png)
-    ![image](_assets/ryx3y8Kr-g.png)
-    ![image](_assets/By-3W8KBWe.png)
+
+      ![image](_assets/BypFJIYBZe.png)
+
+      ![image](_assets/ryx3y8Kr-g.png)
+
+      ![image](_assets/By-3W8KBWe.png)
 
     * writeble file
-    ![image](_assets/HyTlzLtrbl.png)
-    ![image](_assets/BkKHGIKrZx.png)
-    ![image](_assets/r1B5-8KBZx.png)
-    ![image](_assets/ry817UYS-e.png)
+
+      ![image](_assets/HyTlzLtrbl.png)
+
+      ![image](_assets/BkKHGIKrZx.png)
+
+      ![image](_assets/r1B5-8KBZx.png)
+
+      ![image](_assets/ry817UYS-e.png)
 
 * cred search
     1. hash

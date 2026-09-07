@@ -4,39 +4,56 @@
 
 ## Nmap
 * `192.168.x.220`
-![image](_assets/SkcYEr7ZWl.png)
-![image](_assets/ByNhSSX-Zg.png)
+
+  ![image](_assets/SkcYEr7ZWl.png)
+
+  ![image](_assets/ByNhSSX-Zg.png)
 
 * `192.168.x.221`
-![image](_assets/Syvs4HmWWx.png)
-![image](_assets/BJL1IrmWZg.png)
+
+  ![image](_assets/Syvs4HmWWx.png)
+
+  ![image](_assets/BJL1IrmWZg.png)
 
 * `192.168.x.222`
-![image](_assets/B1F3ESQbWl.png)
+
+  ![image](_assets/B1F3ESQbWl.png)
 
 * `192.168.x.223`
-![image](_assets/HyLTVHXZbg.png)
+
+  ![image](_assets/HyLTVHXZbg.png)
 
 * `192.168.x.224`
-![image](_assets/ByARNrmZbl.png)
-![image](_assets/S1bNLBX-bg.png)
-![image](_assets/B11BLrQ-Zg.png)
+
+  ![image](_assets/ByARNrmZbl.png)
+
+  ![image](_assets/S1bNLBX-bg.png)
+
+  ![image](_assets/B11BLrQ-Zg.png)
 
 * `192.168.x.225`
-![image](_assets/HkgMgSH7WWx.png)
-![image](_assets/HJnI8B7-We.png)
-![image](_assets/rJ0DLH7bbg.png)
+
+  ![image](_assets/HkgMgSH7WWx.png)
+
+  ![image](_assets/HJnI8B7-We.png)
+
+  ![image](_assets/rJ0DLH7bbg.png)
 
 * `192.168.x.226`
-![image](_assets/HJlWBHQbbg.png)
+
+  ![image](_assets/HJlWBHQbbg.png)
 
 * `192.168.x.227`
-![image](_assets/SJNDHH7-be.png)
-![image](_assets/rkWY8rXbWg.png)
+
+  ![image](_assets/SJNDHH7-be.png)
+
+  ![image](_assets/rkWY8rXbWg.png)
 
 * `192.168.x.250`
-![image](_assets/SyJn-Y4Z-x.png)
-![image](_assets/BkqNGtVWZl.png)
+
+  ![image](_assets/SyJn-Y4Z-x.png)
+
+  ![image](_assets/BkqNGtVWZl.png)
 
 ## Possible Exploit
 1. `192.168.x.224`

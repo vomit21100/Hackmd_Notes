@@ -4,19 +4,28 @@
 ## Reconnaissance
 ### 1. Port
 * VM1
-![image](_assets/BkSdi8W3xg.png)
-![image](_assets/SJ8FoLWhxe.png)
+
+  ![image](_assets/BkSdi8W3xg.png)
+
+  ![image](_assets/SJ8FoLWhxe.png)
 
 * VM2
-![image](_assets/BJeLF5wybe.png)
-![image](_assets/r1o0sIZ3xe.png)
-![image](_assets/BkcDY9wkbl.png)
-![image](_assets/rygtY5Pkbe.png)
+
+  ![image](_assets/BJeLF5wybe.png)
+
+  ![image](_assets/r1o0sIZ3xe.png)
+
+  ![image](_assets/BkcDY9wkbl.png)
+
+  ![image](_assets/rygtY5Pkbe.png)
 
 * VM3
-![image](_assets/B17e6Ubhex.png)
-![image](_assets/HJSbpLbhll.png)
-![image](_assets/BktMpLW3le.png)
+
+  ![image](_assets/B17e6Ubhex.png)
+
+  ![image](_assets/HJSbpLbhll.png)
+
+  ![image](_assets/BktMpLW3le.png)
 
 ### Applications
 * VM1
