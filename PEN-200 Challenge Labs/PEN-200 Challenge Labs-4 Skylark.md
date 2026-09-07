@@ -1,5 +1,7 @@
 ## Overview
+
 ![image](_assets/ByMlQBmbbe.png)
+
 ![image](_assets/r1AhyF4ZZe.png)
 
 ## Nmap
@@ -59,16 +61,28 @@
 1. `192.168.x.224`
     1. apache
     `CVE-2020-11984`
-    ![image](_assets/Byqp0tEZ-x.png)
-    ![image](_assets/SJb--5E-Zl.png)
+
+       ![image](_assets/Byqp0tEZ-x.png)
+
+       ![image](_assets/SJb--5E-Zl.png)
+
     `CVE-2021-44790`
-    ![image](_assets/ByEGk5E-bg.png)
+
+       ![image](_assets/ByEGk5E-bg.png)
+
     `CVE-2022-22721`
-    ![image](_assets/HJ9HkqN-bx.png)
+
+       ![image](_assets/HJ9HkqN-bx.png)
+
     `CVE-2024-38473`
-    ![image](_assets/HySY1q4Zbx.png)
+
+       ![image](_assets/HySY1q4Zbx.png)
+
     2. squid
     `CVE-2020-11945`
-    ![image](_assets/HyoEz54bbg.png)
+
+       ![image](_assets/HyoEz54bbg.png)
+
     `CVE-2019-12519`
-    ![image](_assets/HJkjG9V-bg.png)
+
+       ![image](_assets/HJkjG9V-bg.png)
